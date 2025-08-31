@@ -59,29 +59,34 @@ Each project will be organized as follows:
 
 100-python-projects-challenge/
 │
-├── README.md
-├── .gitignore
-├── LICENSE
+├── README.md                ← Main overview of the challenge
+├── .gitignore               ← Python-specific ignored files
 │
-├── 01-name-project-01/
-│   ├── main.py
+├── 01-name-project-01/      ← Project 1
+│   ├── main.py              ← Source code for the project
+│   └── README.md            ← Description, features, how to run
+│
+├── 02-name-project-02/      ← Project 2
+│   ├── snake.py
 │   └── README.md
 │
-├── 02-name-project-02/
-│   ├── main.py
+├── 03-name-project-03/      ← Project 3 (Website)
+│   ├── app.py
+│   ├── templates/           ← HTML templates
+│   ├── static/              ← CSS, JS, images
 │   └── README.md
 │
-├── 03-name-project-03/
-│   ├── main.py
-│   ├── templates/
-│   └── README.md
+├── ...                      ← Projects 4 through 99
 │
-└── ... (up to 100)
+└── 100-final-project/       ← Final capstone project
+    ├── app/
+    ├── requirements.txt
+    └── README.md
 
 ## 📈 Progress Tracker
 
-- [x] Project 1 - Blackjack Game
-- [ ] Project 2 - Snake Game
+- [x] Project 1
+- [ ] Project 2
 - [ ] ...
 - [ ] Project 100 - 🎉
 
