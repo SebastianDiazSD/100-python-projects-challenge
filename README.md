@@ -57,32 +57,14 @@ By the end of this challenge, you'll be able to:
 
 Each project will be organized as follows:
 
-100-python-projects-challenge/
-│
-├── README.md                ← Main overview of the challenge
-├── .gitignore               ← Python-specific ignored files
-│
-├── 01-name-project-01/      ← Project 1
-│   ├── main.py              ← Source code for the project
-│   └── README.md            ← Description, features, how to run
-│
-├── 02-name-project-02/      ← Project 2
-│   ├── snake.py
-│   └── README.md
-│
-├── 03-name-project-03/      ← Project 3 (Website)
-│   ├── app.py
-│   ├── templates/           ← HTML templates
-│   ├── static/              ← CSS, JS, images
-│   └── README.md
-│
-├── ...                      ← Projects 4 through 99
-│
-└── 100-final-project/       ← Final capstone project
-    ├── app/
-    ├── requirements.txt
-    └── README.md
-
+- Each project is self-contained in its own directory.
+- Every project includes a README.md explaining:
+    * What the project does
+    * Technologies used
+    * How to run it
+- For notebooks (.ipynb), especially data science projects, put them in the relevant project folder.
+- Frontend/backend/web projects will have subfolders like templates/, static/, etc.
+  
 ## 📈 Progress Tracker
 
 - [x] Project 1
