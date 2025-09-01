@@ -12,3 +12,10 @@ print("Strings are strings of characters"
 priint("String Concatenation is done with the + sign")
 print(("New lines can be created with a \ and the letter n")
 ```
+**Error messages**
+
+SyntaxError: unterminated string literal
+IndentationError: unexpected indent
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+NameError: name 'priint' is not defined. Did you mean: 'print'?
+SyntaxError: '(' was never closed
