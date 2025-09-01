@@ -4,3 +4,5 @@ We have 2 variables glass1 and glass2. glass1 contains milk and glass2 contains 
 glass1 = "milk"
 glass2 = "juice"
 ```
+glass1 should be 'juice' after switching
+glass2 should be 'milk' after switching
