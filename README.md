@@ -68,7 +68,7 @@ Each project will be organized as follows:
 ## 📈 Progress Tracker
 
 - [x] Project 1 - [Printing Practice](01-Printing-Practice/)
-- [ ] Project 2
+- [x] Project 2 - [Debugging Practice](02-Debugging-Practice/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
