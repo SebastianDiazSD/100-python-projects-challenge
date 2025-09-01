@@ -5,4 +5,5 @@ glass1 = "milk"
 glass2 = "juice"
 ```
 glass1 should be 'juice' after switching
+
 glass2 should be 'milk' after switching
