@@ -16,7 +16,7 @@ while not bill:
 # Ask for the tip which will a percentage of total bill.
 # Check if the user input is a valid number or if it is equal to 10, 12 or 15%.
 tip = False
-total_tip = input("How much tip would you like to give? 10, 12, or 15? %")
+total_tip = input("How much tip would you like to give? 10%, 12%, or 15%? ")
 while not tip:
     if total_tip.isnumeric():
         total_tip = int(total_tip)
