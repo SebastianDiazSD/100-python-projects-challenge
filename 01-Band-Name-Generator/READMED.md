@@ -1,10 +1,17 @@
-# Printing Practice
-Write a program that uses print statements. The text to print is already there, we just need to make it into code!
+# Brand Name Generator
+Write a program that uses the user input to create a name for a band.
 
-**Output:**
+**Description:**
 
-1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.
-2. Knead the dough for 10 minutes.
-3. Add 3g of Salt.
-4. Leave to rise for 2 hours.
-5. Bake at 200 degrees C for 30 minutes.
+1. Create a greeting for your program.
+2. Ask the user for the city that they grew up in and store it in a variable.
+3. Ask the user for the name of a pet and sotre it in a variable.
+4. Combine the name of their city and pet and show them their band name.
+
+**Hint**
+Make sure the input cursor show on a new line.
+
+**Example**
+
+<img width="358" height="133" alt="image" src="https://github.com/user-attachments/assets/7f1d837f-95e5-45b9-a040-47fc684a841b" />
+
