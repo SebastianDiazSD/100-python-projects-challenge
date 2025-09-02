@@ -67,8 +67,9 @@ Each project will be organized as follows:
   
 ## 📈 Progress Tracker
 
-- [x] Project 1 - [Printing Practice](01-Printing-Practice/)
-- [x] Project 2 - [Debugging Practice](02-Debugging-Practice/)
+- [x] Project 1 - [Band Name Generator](01-Band-Name-Generator/)
+- [x] Project 2 - [Tip Calculator](02-Tip-Calculator/)
+- [ ] Project 3 - [Treasure Island](03-Treasure-Island/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
