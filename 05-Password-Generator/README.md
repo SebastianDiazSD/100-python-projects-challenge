@@ -39,7 +39,7 @@ How many symbols would you like? 2
 Choose password mode: structured[1] or scrambled[2]? 2
 
 Your scrambled password is: 3a@Lq9$Z
-
+```
 ---
 
 ## 🛠️ Features & Tools Used
