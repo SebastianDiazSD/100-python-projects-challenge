@@ -69,7 +69,9 @@ Each project will be organized as follows:
 
 - [x] Project 1 - [Band Name Generator](01-Band-Name-Generator/)
 - [x] Project 2 - [Tip Calculator](02-Tip-Calculator/)
-- [ ] Project 3 - [Treasure Island](03-Treasure-Island/)
+- [x] Project 3 - [Treasure Island](03-Treasure-Island/)
+- [x] Project 4 - [Rock, Paper, Scissors](04-Rock,Paper,Scissors/)
+- [x] Project 5 - [Password Generator](05-Password-Generator/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
