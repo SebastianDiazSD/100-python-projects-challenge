@@ -72,6 +72,7 @@ Each project will be organized as follows:
 - [x] Project 3 - [Treasure Island](03-Treasure-Island/)
 - [x] Project 4 - [Rock, Paper, Scissors](04-Rock,Paper,Scissors/)
 - [x] Project 5 - [Password Generator](05-Password-Generator/)
+- [x] Project 6 - [Escaping the Maze](06-Escaping-the-Maze/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
