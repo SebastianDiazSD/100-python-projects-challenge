@@ -61,7 +61,6 @@ Each project will be organized as follows:
 - Every project includes a README.md explaining:
     * What the project does
     * Technologies used
-    * How to run it
 - For notebooks (.ipynb), especially data science projects, put them in the relevant project folder.
 - Frontend/backend/web projects will have subfolders like templates/, static/, etc.
   
