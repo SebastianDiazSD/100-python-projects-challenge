@@ -10,15 +10,14 @@ Here, we’re bringing back a classic: the **Caesar Cipher** — one of the most
 In simple terms, it’s a way to **hide your message** by shifting the letters of the alphabet.  
 For example, with a shift of 3 to the right:
 
-A -> D
-B -> E
-C -> F
-D -> G
-
+- A -> D
+- B -> E
+- C -> F
+- D -> G
 
 This method was used by Julius Caesar himself (yep, the Roman man) to keep his messages private. Pretty clever for ancient times, no?
 
-To decrypt the message, we just do the opposite — shift to the right.
+To decrypt the message, we just do the opposite — shift to the left.
 
 ---
 
