@@ -72,6 +72,8 @@ Each project will be organized as follows:
 - [x] Project 4 - [Rock, Paper, Scissors](04-Rock,Paper,Scissors/)
 - [x] Project 5 - [Password Generator](05-Password-Generator/)
 - [x] Project 6 - [Escaping the Maze](06-Escaping-the-Maze/)
+- [x] Project 7 - [Hangman](07-Hangman/)
+- [x] Project 8 - [Caesar Cipher](08-Caesar-Cipher/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
