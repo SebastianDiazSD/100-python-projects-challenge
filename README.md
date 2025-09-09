@@ -61,7 +61,6 @@ Each project will be organized as follows:
 - Every project includes a README.md explaining:
     * What the project does
     * Technologies used
-    * How to run it
 - For notebooks (.ipynb), especially data science projects, put them in the relevant project folder.
 - Frontend/backend/web projects will have subfolders like templates/, static/, etc.
   
@@ -72,6 +71,7 @@ Each project will be organized as follows:
 - [x] Project 3 - [Treasure Island](03-Treasure-Island/)
 - [x] Project 4 - [Rock, Paper, Scissors](04-Rock,Paper,Scissors/)
 - [x] Project 5 - [Password Generator](05-Password-Generator/)
+- [x] Project 6 - [Escaping the Maze](06-Escaping-the-Maze/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
