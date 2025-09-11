@@ -74,6 +74,7 @@ Each project will be organized as follows:
 - [x] Project 6 - [Escaping the Maze](06-Escaping-the-Maze/)
 - [x] Project 7 - [Hangman](07-Hangman/)
 - [x] Project 8 - [Caesar Cipher](08-Caesar-Cipher/)
+- [x] Project 9 - [Secret Auction](09-Secret-Auction/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
