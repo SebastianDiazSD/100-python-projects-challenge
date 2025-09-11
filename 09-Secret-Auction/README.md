@@ -32,10 +32,13 @@ It's a fun way to practice basic Python concepts like:
 
 ```bash
 python secret_auction.py
+```
+
+---
 
 ## 🔒 Sample Output
 
-```bash
+```python
 Welcome to the Secret Auction! 🇨🇴
 Please enter your name: Carlos
 What's your bid?: $150
@@ -46,6 +49,3 @@ What's your bid?: $150
 And the winner is... María with a bid of $220! 🎉
 ¡Felicitaciones!
 ```
-
-```bash
-python secret_auction.py
