@@ -50,9 +50,10 @@ python calculator_app.py
 ---
 
 ## 📁 Project Structure
+```bash
 python-calculator/
 ├── art.py
 ├── calculator_app.py
 ├── operations.py
 └── README.md
-
+```
