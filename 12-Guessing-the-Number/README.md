@@ -45,7 +45,6 @@ python main.py
 
 ## ✨ Sample Output
 
-### 1. Clone this repo:
 ```python
 ¡Bienvenido a "Guess the Number, Parce!" 🎯
 
