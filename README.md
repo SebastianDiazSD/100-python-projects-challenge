@@ -79,7 +79,9 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 7 - [Hangman](07-Hangman/)
 - [x] Project 8 - [Caesar Cipher](08-Caesar-Cipher/)
 - [x] Project 9 - [Secret Auction](09-Secret-Auction/)
-- [x] Project 10 - [The Calculator App](10-The-Calculator-App)
+- [x] Project 10 - [The Calculator App](10-The-Calculator-App/)
+- [x] Project 11 - [Blackjack Game](11-Blackjack-Game/)
+- [x] Project 12 - [Guessing the Number](12-Guessing-the-Number/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
