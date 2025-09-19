@@ -43,8 +43,8 @@ You play against the computer dealer, and the rules follow the traditional Black
 
 ### 1. Clone the repo:
 ```bash
-git clone https://github.com/yourusername/blackjack-colombian-style.git
-cd blackjack-colombian-style
+git clone https://github.com/SebastianDiazSD/100-python-projects-challenge.git
+cd 11-blackjack
 ```
 ### 2. Run the code:
 ```bash
