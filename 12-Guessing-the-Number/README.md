@@ -32,13 +32,13 @@ Welcome to **Guess the Number - Colombian Style**, a fun and interactive termina
 
 ### 1. Clone this repo:
 ```bash
-git clone https://github.com/yourusername/colombian-guess-the-number.git
-cd colombian-guess-the-number
+git clone https://github.com/SebastianDiazSD/100-python-projects-challenge.git
+cd 12-Guessing-the-Number
 ```
 
 ### 2. Run the game:
 ```bash
-python main.py
+python guessing-the-number.py
 ```
 
 ---
