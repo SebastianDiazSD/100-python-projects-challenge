@@ -32,7 +32,7 @@ Plus, I wanted to make something that my friends could actually enjoy playing, n
 Make sure you have Python installed, then clone this repo and run the game:
 
 ```bash
-git clone https://github.com/your-username/higher-lower-instagram.git
+git clone https://github.com/SebastianDiazSD/100-python-projects-challenge.git
 cd higher-lower-instagram
 python main.py
 ```
