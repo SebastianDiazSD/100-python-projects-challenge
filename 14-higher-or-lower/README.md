@@ -34,7 +34,7 @@ Make sure you have Python installed, then clone this repo and run the game:
 ```bash
 git clone https://github.com/SebastianDiazSD/100-python-projects-challenge.git
 cd higher-lower-instagram
-python main.py
+python higher_lower_game.py
 ```
 
 You’ll also need:
