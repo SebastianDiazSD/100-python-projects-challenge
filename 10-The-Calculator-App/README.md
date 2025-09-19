@@ -37,7 +37,7 @@ After every operation, you can:
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/yourusername/python-calculator.git
+git clone https://github.com/SebastianDiazSD/100-python-projects-challenge.git
 cd 10-The-Calculator-App
 ```
 
