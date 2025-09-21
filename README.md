@@ -82,6 +82,9 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 10 - [The Calculator App](10-The-Calculator-App/)
 - [x] Project 11 - [Blackjack Game](11-Blackjack-Game/)
 - [x] Project 12 - [Guessing the Number](12-Guessing-the-Number/)
+- [x] Project 13 - [Debugging](13-debugging/)
+- [x] Project 14 - [Higher or Lower](14-higher-or-lower/)
+- [x] Project 15 - [Coffee Machine](15-coffee-machine/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
