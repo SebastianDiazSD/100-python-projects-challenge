@@ -85,7 +85,8 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 13 - [Debugging](13-debugging/)
 - [x] Project 14 - [Higher or Lower](14-higher-or-lower/)
 - [x] Project 15 - [Coffee Machine](15-coffee-machine/)
-- [x] Project 16 - [Coffee Machine (OOP Refactor)](16-coffee-machine-oop/) 
+- [x] Project 16 - [Coffee Machine (OOP Refactor)](16-coffee-machine-oop/)
+- [x] Project 17 - [The Quiz Game](17-the-quiz/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
