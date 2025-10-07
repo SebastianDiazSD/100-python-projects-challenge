@@ -43,10 +43,6 @@ Here's a preview of how the generated artwork might look:
 
 ![Million Dollar Painting Example](image.jpg)
 
-## 🇨🇴 Colombian Twist
-
-This project brings a touch of Colombian creativity into the world of art and programming. From the vibrant colors to the dynamic shapes, this piece is an homage to the rich culture and artistic expression of Colombia. 🎉
-
 ---
 
 Feel free to fork, modify, and share your version of the painting!
