@@ -41,7 +41,7 @@ This will open a **Turtle graphics** window where the painting will be drawn. Cl
 
 Here's a preview of how the generated artwork might look:
 
-![Million Dollar Painting Example](18-million-dollar-painting/image.jpg)
+![Million Dollar Painting Example](image.jpg)
 
 ## 🇨🇴 Colombian Twist
 
