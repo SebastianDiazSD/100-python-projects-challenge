@@ -87,6 +87,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 15 - [Coffee Machine](15-coffee-machine/)
 - [x] Project 16 - [Coffee Machine (OOP Refactor)](16-coffee-machine-oop/)
 - [x] Project 17 - [The Quiz Game](17-the-quiz/)
+- [x] Project 18 - [Million Dollar Painting](18-million-dollar-painting/)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
