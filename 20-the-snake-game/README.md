@@ -45,7 +45,7 @@ either wrap around the edges or face *el fin del juego* 💀.
 ### 1️⃣ Clone this repository
 ```bash
 git clone https://github.com/SebastianDiazSD/100-python-projects-challenge.git
-cd snake-game
+cd 20-the-snake-game
 ```
 
 ### 2️⃣ Run the main game
