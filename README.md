@@ -91,6 +91,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 19 - [The Dog Race](19-dog-race/)
 - [x] Project 20 - [The Snake Game](20-the-snake-game)
 - [x] Project 21 - [The Pong Game](21-the-pong-game)
+- [x] Project 22 - [Crossing the Street Game](22-crossing-the-street-game)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
