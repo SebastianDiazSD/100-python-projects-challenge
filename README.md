@@ -92,7 +92,9 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 20 - [The Snake Game](20-the-snake-game)
 - [x] Project 21 - [The Pong Game](21-the-pong-game)
 - [x] Project 22 - [Crossing the Street Game](22-crossing-the-street-game)
-- [x] Project 23 - [Name the States](24-name-the-states)
+- [x] Project 23 - [Mail Merge Project](23-mail-merge-project)
+- [x] Project 24 - [Name the States](24-name-the-states)
+- [x] Project 25 - [Nato Alphabet Project](25-nato-alphabet-project)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
