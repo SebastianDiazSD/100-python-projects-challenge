@@ -30,11 +30,6 @@ This fun app lets you enter your name and translates it into the **NATO Phonetic
    ```bash
    python colombian-coded-name.py
    ```
-3. Run the program:
-
-   ```bash
-   python colombian-coded-name.py
-   ```
 4. Type your name in the input box, and enjoy(if you have a cup of coffee better!) 🇨🇴
 
 ---
