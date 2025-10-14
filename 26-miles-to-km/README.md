@@ -38,7 +38,7 @@ cd 26 miles-to-km
 ```
 2. Run the program:
 ```bash
-python colombian-coded-name.py
+python mile-to-km.py
 ```
 
-3. Type the distnce yo want to convert and enjoy 🇨🇴
+3. Type the distance yo want to convert and enjoy 🇨🇴
