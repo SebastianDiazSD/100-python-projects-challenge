@@ -95,6 +95,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 23 - [Mail Merge Project](23-mail-merge-project)
 - [x] Project 24 - [Name the States](24-name-the-states)
 - [x] Project 25 - [Nato Alphabet Project](25-nato-alphabet-project)
+- [x] Project 26 - [Distance Converter](26-miles-to-km)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
