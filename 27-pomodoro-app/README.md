@@ -42,7 +42,7 @@ python --version
 ### 3. Run the app
 
 ```bash
-python main.py
+python pomodoro-app.py
 ```
 
 ---
@@ -52,7 +52,7 @@ python main.py
 ```bash
 📦 pomodoro-colombiano
 ├── coffee_cup.png          # Coffee image used in the UI
-├── main.py                 # Main application window
+├── pomodoro-app.py                 # Main application window
 ├── helpers.py              # Timer logic (start, reset, countdown)
 └── README.md               # This file
 ```
