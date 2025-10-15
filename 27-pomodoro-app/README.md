@@ -4,14 +4,6 @@ A visually sweet, Colombian-flavored Pomodoro app built with Python and Tkinter.
 
 ---
 
-## 🖼️ Preview
-
-<img src="screenshot.png" alt="Pomodoro Timer Screenshot" width="500"/>
-
-> *"Llave, time's up!"* — because even the hardest worker needs a break.
-
----
-
 ## ⏱️ Features
 
 - ✅ Classic Pomodoro cycles (25/5/25/5.../20)
