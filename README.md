@@ -97,6 +97,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 25 - [Nato Alphabet Project](25-nato-alphabet-project)
 - [x] Project 26 - [Distance Converter](26-miles-to-km)
 - [x] Project 27 - [Colombian Pomodoro Timer](27-pomodoro-app)
+- [x] Project 28 - [Strong Password Generator](28-strong-password-generator)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
