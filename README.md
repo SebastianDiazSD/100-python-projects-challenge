@@ -100,6 +100,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 28 - [Strong Password Generator](28-strong-password-generator)
 - [x] Project 29 - [ParceroPass](29-ParceroPass)
 - [x] Project 30 - [Flash Card Game](30-flash-card-game)
+- [x] Project 31 - [Birthday Wisher](31-birthday-wisher/Birthday)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
