@@ -101,6 +101,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 29 - [ParceroPass](29-ParceroPass)
 - [x] Project 30 - [Flash Card Game](30-flash-card-game)
 - [x] Project 31 - [Birthday Wisher](31-birthday-wisher/Birthday)
+- [x] Project 32 - [Kanye Quotes](32-kanye-quotes)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
