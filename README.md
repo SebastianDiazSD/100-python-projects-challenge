@@ -103,6 +103,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 31 - [Birthday Wisher](31-birthday-wisher/Birthday)
 - [x] Project 32 - [Kanye Quotes](32-kanye-quotes)
 - [x] Project 33 - [Trivia Questions](33-trivia-questions)
+- [x] Project 34 - [Rain Alert](34-rain-alert)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
