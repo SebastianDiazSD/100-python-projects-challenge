@@ -105,6 +105,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 33 - [Trivia Questions](33-trivia-questions)
 - [x] Project 34 - [Rain Alert](34-rain-alert)
 - [x] Project 35 - [Tesla Stock Alert](35-stock-monitoring)
+- [x] Project 36 - [Habit Tracker](36-habit-tracker)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
