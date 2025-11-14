@@ -1,0 +1,6 @@
+# Ignore environment files and caches
+.env
+.json
+.txt
+__pycache__/
+*.pyc
