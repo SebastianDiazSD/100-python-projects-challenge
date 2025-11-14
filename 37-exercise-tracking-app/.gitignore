@@ -1,6 +1,9 @@
-# Ignore environment files and caches
+# Ignore environment files
 .env
-.json
-.txt
+*.env
+*.txt
+*.json
+
+# Ignore Python cache
 __pycache__/
 *.pyc
