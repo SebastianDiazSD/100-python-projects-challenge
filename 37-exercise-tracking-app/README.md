@@ -49,8 +49,8 @@ ENV_SHEETY_PASSWORD=your_password
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/yourusername/exercise-tracker-colombian.git
-cd exercise-tracker-colombian
+git clone https://github.com/SebastianDiazSD/100-python-projects-challenge.git
+cd 37-exercise-tracking-app
 ```
 
 2. Install dependencies:
