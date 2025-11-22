@@ -108,6 +108,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 36 - [Habit Tracker](36-habit-tracker)
 - [x] Project 37 - [Exercise Tracking App](37-exercise-tracking-app)
 - [x] Project 38 - [Cheap Flight Finder](38cheap-flight-finder)
+- [x] Project 39 - [HTML Intro](39-html-intro)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
