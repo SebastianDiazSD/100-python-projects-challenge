@@ -40,17 +40,17 @@ This repository contains four mini-projects, each focused on practicing a differ
 ## 🌄 Exercise Summaries
 
 1. Heading Element
-
+```bash
   - Practiced HTML headings (<h1> to <h6>).
-
+```
 2. Paragraph Element
-
+```bash
   - Used <p> to create separate paragraphs.
-
+```
 3. Void Elements
-
+```bash
   - Practiced <hr> and <br>.
-
+```
 4. Movie Ranking Project
 
 A mini-project ranking my Top 3 Favorite Movies, combining everything learned.
