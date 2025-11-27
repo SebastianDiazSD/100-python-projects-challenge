@@ -110,6 +110,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 38 - [Cheap Flight Finder](38cheap-flight-finder)
 - [x] Project 39 - [HTML Intro](39-html-intro)
 - [x] Project 40 - [HTML Intermediate](40-html-intermediate)
+- [x] Project 41 - [CSS Intro](41-css-intro)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
