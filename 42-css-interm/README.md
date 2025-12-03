@@ -101,10 +101,10 @@ git clone https://github.com/SebastianDiazSD/100-python-projects-challenge.git
 ```
 2. Open each project folder
 
-Each folder contains:
+* Each folder contains:
 
-- index.html → the blank practice file
-- solution.html (+ CSS) → completed version for reference
+      - index.html → the blank practice file
+      - solution.html (+ CSS) → completed version for reference
   
 3. Practice by editing the index.html file
    
