@@ -113,6 +113,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 41 - [CSS Intro](41-css-intro)
 - [x] Project 42 - [CSS Intermediate](42-cc-interm)
 - [x] Project 43 - [Web Scraping](43-web-scraping)
+- [x] Project 44 - [Music Machine](44-music-machine)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
