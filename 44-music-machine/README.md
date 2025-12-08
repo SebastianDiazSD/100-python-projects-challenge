@@ -62,10 +62,10 @@ REDIRECT_URI=http://127.0.0.1:8888/callback
 1. Go to https://developer.spotify.com/dashboard
 2. Create an app
 3. Add this redirect URI:
-  - http://127.0.0.1:8888/callback
+ * http://127.0.0.1:8888/callback
 4. Copy your:
-  - Client ID
-  - Client Secret
+ * Client ID
+ * Client Secret
 5. Paste them into your .env file
 6. Delete token.txt if you're re-running the app
 
@@ -96,25 +96,21 @@ Just click **“Let the music begin!”** and watch the playlist get created aut
 
 ## 🪄 How It Works
 
-1. Billboard Scraper
-
-Extracts the 100 current top tracks:
+**1. Billboard Scraper**
+   Extracts the 100 current top tracks:
 ```bash
 li ul li h3  →  track titles
 ```
-2. Spotify Auth
+**2. Spotify Auth**
+   Uses OAuth to log into your account and create a playlist.
 
-Uses OAuth to log into your account and create a playlist.
-
-3. Track Matching
-
-Each scraped song is searched with:
+**3. Track Matching**
+   Each scraped song is searched with:
 ```bash
 track:<song title>
 ```
-4. Playlist Creation
-
-A new playlist is created and all found tracks are inserted.
+**4. Playlist Creation**
+   A new playlist is created and all found tracks are inserted.
 
 ---
 
