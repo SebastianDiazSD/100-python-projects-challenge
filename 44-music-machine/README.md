@@ -59,15 +59,15 @@ REDIRECT_URI=http://127.0.0.1:8888/callback
 
 ## 🎧 Spotify Setup (Required)
 
-1. Go to https://developer.spotify.com/dashboard
-2. Create an app
-3. Add this redirect URI:
- * http://127.0.0.1:8888/callback
-4. Copy your:
- * Client ID
- * Client Secret
-5. Paste them into your .env file
-6. Delete token.txt if you're re-running the app
+- Go to https://developer.spotify.com/dashboard
+- Create an app
+- Add this redirect URI:
+   - http://127.0.0.1:8888/callback
+- Copy your:
+   - Client ID
+   - Client Secret
+- Paste them into your .env file
+- Delete token.txt if you're re-running the app
 
 ---
 
