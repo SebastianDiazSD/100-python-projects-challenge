@@ -115,6 +115,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 43 - [Web Scraping](43-web-scraping)
 - [x] Project 44 - [Music Machine](44-music-machine)
 - [x] Project 45 - [Amazon Price Scraper](45-amazon-price-scraper)
+- [ ] Project 46 - [Game Playing Bot](46-game-playing-bot)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
