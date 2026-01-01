@@ -62,9 +62,9 @@ fewer decisions, higher long-term yield.
    ```
 2. Ensure Google Chrome is installed.
 3. Run the script:
-       ```bash
-        python main.py
-        ```
+   ```bash
+   python main.py
+   ```
 4. The browser will open automatically and run the simulation for 5 minutes.
 
 ## Notes
