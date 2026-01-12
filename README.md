@@ -117,6 +117,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 45 - [Amazon Price Scraper](45-amazon-price-scraper)
 - [x] Project 46 - [Game Playing Bot](46-game-playing-bot)
 - [x] Project 47 - [Exercise Routine](47-exercise-routine)
+- [x] Project 48 - [Tinder Bot](48-tinderbot)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
