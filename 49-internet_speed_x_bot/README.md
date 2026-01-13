@@ -1,5 +1,3 @@
-https://github.com/SebastianDiazSD/100-python-projects-challenge.git
-
 # X Internet Speed Complaint Bot 🇨🇴☕
 
 This Python project checks your internet speed and automatically posts a complaint on **X** (formerly Twitter) if your ISP is not delivering the promised speeds.
