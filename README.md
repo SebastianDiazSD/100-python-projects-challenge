@@ -118,6 +118,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 46 - [Game Playing Bot](46-game-playing-bot)
 - [x] Project 47 - [Exercise Routine](47-exercise-routine)
 - [x] Project 48 - [Tinder Bot](48-tinderbot)
+- [x] project 49 - [Internet Speed X Bot](49-internet_speed_x_bot)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
