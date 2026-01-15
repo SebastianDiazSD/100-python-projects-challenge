@@ -120,6 +120,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 48 - [Tinder Bot](48-tinderbot)
 - [x] project 49 - [Internet Speed X Bot](49-internet_speed_x_bot)
 - [x] Project 50 - [Instagram Follower Bot](50-instagram-follower-bot)
+- [x] Project 51 - [Data Entry Automation](51-data-entry-job-automation)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
