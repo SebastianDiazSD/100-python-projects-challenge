@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction to Django</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 8px;
+        }
+        button {
+            background-color: #0c4b33;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Introduction to Django</h1>
+
+    <p>
+        Welcome to our calculation section, parcero.<br>
+        Django style — structured, powerful, and con paciencia.
+    </p>
+
+    <form method="POST">
+        {% csrf_token %}
+
+        <label>First Number:</label><br>
+        <input type="number" step="any" name="num1" required><br><br>
+
+        <label>Second Number:</label><br>
+        <input type="number" step="any" name="num2" required><br><br>
+
+        <label>Select an operation:</label><br>
+        <select name="operation">
+            <option value="add">Add</option>
+            <option value="subtract">Subtract</option>
+            <option value="multiply">Multiply</option>
+            <option value="divide">Divide</option>
+        </select><br><br>
+
+        <button type="submit">Calculate, mi viejo</button>
+    </form>
+
+    {% if result is not None %}
+        <hr>
+        <h2>Result</h2>
+        <p>
+            Operation: <strong>{{ operation_name }}</strong><br>
+            Result: <strong>{{ result }}</strong>
+        </p>
+        <p>Bien hecho, parcero 🚀</p>
+    {% endif %}
+</div>
+</body>
+</html>
