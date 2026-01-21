@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Higher Lower Game</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto; /* Space arriba y abajo, bien relajado */
+            max-width: 300px;
+        }
+
+        form {
+            margin-top: 20px; /* Space between GIF and input */
+        }
+
+        input {
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 8px 12px;
+            font-size: 16px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Higher–Lower Game 🇨🇴</h1>
+
+    {% if not won %}
+        <h2>Guess a number between 1 and {{ range }}</h2>
+    {% endif %}
+
+    {% if message %}
+        <p>{{ message }}</p>
+        <img src="{{ gif }}" alt="Game feedback gif">
+    {% endif %}
+
+    {% if not won %}
+        <form method="POST">
+            <input
+                type="number"
+                name="guess"
+                placeholder="Type your guess, pana"
+                required
+            >
+            <button type="submit">Try your luck</button>
+        </form>
+    {% endif %}
+
+    {% if won %}
+        <p>Juego terminado, parcero 😎</p>
+        <a href="/">Play again</a>
+    {% endif %}
+
+</body>
+</html>
