@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Higher–Lower Game</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;  /* Space above and below GIF */
+            max-width: 300px;
+        }
+
+        form {
+            margin-top: 30px;  /* Space between GIF and input field */
+        }
+
+        input[type="number"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 150px;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #1a73e8;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Higher–Lower Game 🇨🇴</h1>
+
+{% if not won %}
+    <h2>Guess a number between 1 and {{ range }}</h2>
+{% endif %}
+
+{% if message %}
+    <p>{{ message }}</p>
+    <img src="{{ gif }}" alt="Feedback GIF">
+{% endif %}
+
+{% if not won %}
+    <form method="POST">
+        {% csrf_token %}
+        <input type="number" name="guess" placeholder="Type your guess, pana" required>
+        <button type="submit">Try your luck</button>
+    </form>
+{% else %}
+    <a href="/">Play again, parcero</a>
+{% endif %}
+
+</body>
+</html>
