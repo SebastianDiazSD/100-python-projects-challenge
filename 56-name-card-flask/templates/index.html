@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Sebastián Díaz | Infrastructure & Software</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Font Awesome (required for icons) -->
+		<link rel="stylesheet" href="static/fontawesome-all.min.css" />
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="static/main.css" />
+		<noscript><link rel="stylesheet" href="static/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Sebastián Díaz</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">What I Do</a></li>
+						<li><a href="#two">Who I Am</a></li>
+						<li><a href="#work">My Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>Hello!</h2>
+						<img
+								src="{{ url_for('static', filename='images/profile.jpeg') }}"
+								alt="Sebastián Díaz"
+								class="profile-pic"
+						/>
+						<p>I'm Sebastián — a civil engineer and aspiring software developer working on the future of infrastructure.</p>
+					</header>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What I Do</h2>
+					</header>
+					<p>
+					I work at the intersection of civil engineering and software development.
+					As a construction supervisor on large railway infrastructure projects, I’m involved in planning,
+					execution, and quality control on site.
+				</p>
+				<p>
+					In parallel, I develop software tools and data-driven solutions using Python and web technologies,
+					with the goal of automating workflows, improving transparency, and supporting better
+					decision-making in infrastructure projects.
+				</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Who I Am</h2>
+					</header>
+					<p>
+					I’m a Colombian civil engineer living and working in Germany.
+					I grew up in Colombia, where adaptability and creativity are part of everyday problem-solving,
+					and I now apply that mindset in structured engineering environments across Europe.
+				</p>
+				<p>
+					I speak Spanish (native), English, and German, and I enjoy working across cultures,
+					disciplines, and technical domains. I’m currently deepening my computer science skills
+					with a long-term focus on infrastructure digitalization and automation.
+				</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>My Work</h2>
+					</header>
+					<p>
+					My work focuses on building a strong software engineering foundation while staying
+					closely connected to real-world infrastructure challenges.</p>
+					<ul>
+						<li>
+							<strong>Python Projects & Challenges</strong><br />
+							Hands-on programming exercises to strengthen problem-solving skills and software fundamentals.
+						</li>
+						<li>
+							<strong>Computer Science Coursework</strong><br />
+							Projects and assignments from my master’s studies, including algorithms and data structures.
+						</li>
+						<li>
+							<strong>Infrastructure & Automation Experiments</strong><br />
+							Small but practical projects where civil engineering meets data analysis, automation,
+							and digital workflows.
+						</li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Get in Touch</h2>
+						<p>If you’re interested in infrastructure, software, or collaboration opportunities,
+						I’d be happy to connect.</p>
+					</header>
+
+					<div class="box">
+						<form method="post" action="/">
+							<div class="fields">
+								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+							</div>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li>
+							<a href="https://www.linkedin.com/in/sebastian-arce-diaz91/"
+							   class="icon brands fa-linkedin-in"
+							   target="_blank" rel="noopener">
+								<span class="label">LinkedIn</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/SebastianDiazSD"
+							   class="icon brands fa-github"
+							   target="_blank" rel="noopener">
+								<span class="label">GitHub</span>
+							</a>
+						</li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>Responsive site template designed by <a href="https://html5up.net">HTML5 UP</a></li><li>Released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a></a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/jquery.poptrox.min.js"></script>
+			<script src="static/js/jquery.scrolly.min.js"></script>
+			<script src="static/js/jquery.scrollex.min.js"></script>
+			<script src="static/js/browser.min.js"></script>
+			<script src="static/js/breakpoints.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+
+	</body>
+</html>
