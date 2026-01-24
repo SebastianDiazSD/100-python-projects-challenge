@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guess Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+</head>
+<body>
+  <div class="container result">
+    <h2>🎯 My Guess</h2>
+    <p>{{ message }}</p>
+    <a href="/" class="btn">Try Another Name</a>
+  </div>
+</body>
+</html>
