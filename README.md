@@ -126,6 +126,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 54 - [Higher–Lower Game (Flask Edition)](54-higher-lower-game-with-flask)
 - [x] Project 55 - [Higher–Lower Game (Django Edition)](55-higher-lower-game-with-django)
 - [x] Project 56 - [Name Card (Flask)](56-name-card-flask)
+- [x] Project 57 - [Age & Gender Guess App](57-age-gender-guess)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
