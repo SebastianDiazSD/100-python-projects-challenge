@@ -129,6 +129,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 57 - [Age & Gender Guess App](57-age-gender-guess)
 - [x] Project 58 - [Website Development (Flask+Bootstrap)](58-website-development-bootstrap)
 - [x] Project 59 - [Portfolio Website](59-portfolio-website)
+- [x] Project 60 - [Contact Form Module – Flask & Bootstrap](60-contact-form)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
