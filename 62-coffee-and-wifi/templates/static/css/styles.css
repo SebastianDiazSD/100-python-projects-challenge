@@ -1,0 +1,49 @@
+/* Global fixes */
+body {
+  background-color: #f8f9fa; /* soft light gray */
+  color: #212529; /* Bootstrap default dark text */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #3e2723; /* coffee brown */
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+/* Tables */
+.table {
+  background-color: #ffffff;
+}
+
+/* Links */
+a {
+  color: #8d4b2d;
+}
+
+a:hover {
+  color: #5d2e1a;
+  text-decoration: underline;
+}
+
+/* Buttons (extra warmth) */
+.btn-warning {
+  background-color: #f4a261;
+  border-color: #f4a261;
+}
+
+.btn-warning:hover {
+  background-color: #e76f51;
+  border-color: #e76f51;
+}

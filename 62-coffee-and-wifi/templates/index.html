@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="text-center">
+  <h1 class="display-4 fw-bold">Find Your Next Favorite Café ☕</h1>
+
+  <p class="lead mt-3">
+    Discover great cafés to work, study, or just enjoy a good cup of coffee.
+  </p>
+
+  <p class="text-muted">
+    Inspired by Colombia’s coffee culture 🇨🇴 — because good coffee is serious business.
+  </p>
+
+  <a class="btn btn-warning btn-lg mt-4" href="/add" role="button">
+    Add a New Café
+  </a>
+
+  <a class="btn btn-outline-dark btn-lg mt-4 ms-2" href="/cafes">
+    View Cafés
+  </a>
+</div>
+
+{% endblock %}
