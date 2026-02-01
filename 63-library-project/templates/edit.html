@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Edit Books</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>✏️ Edit Books</h1>
+  <form method="POST">
+    {% for book in books %}
+      <div class="edit-item">
+        <strong>{{ book.title }}</strong> by {{ book.author }}<br>
+        <label>New Rating:</label>
+        <input type="number" name="rating_{{ book.id }}" step="0.1" min="0" max="10" value="{{ book.rating }}" required>
+      </div><br>
+    {% endfor %}
+    <button type="submit">💾 Update</button>
+  </form>
+  <a href="{{ url_for('home') }}">← Cancel</a>
+</body>
+</html>
