@@ -1,0 +1,29 @@
+<div class="card">
+  <div class="card-container">
+    <div class="front">
+      <div class="card-image" style="background-image: url('{{ book.image_url }}');"></div>
+      <p class="large">{{ book.title }}</p>
+    </div>
+
+    <div class="back">
+      <div class="card-body">
+        <h5 class="card-title">{{ book.title }}</h5>
+        <p class="card-description">{{ book.description }}</p>
+        <p class="card-credit">Image credit: {{ book.image_credit }}</p>
+        <p class="card-link">
+          Watch: <a href="{{ book.watch_link }}" target="_blank">Stream</a>
+        </p>
+
+        <form method="POST">
+          <input type="hidden" name="movie_id" value="{{ book.id }}">
+          <label>
+            <input type="checkbox" name="favorite" {% if book.favorite %}checked{% endif %}>
+            Favorite
+          </label>
+          <textarea name="review" placeholder="Your take...">{{ book.review }}</textarea>
+          <button class="btn btn-primary">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

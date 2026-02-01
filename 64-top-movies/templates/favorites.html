@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %}Cinecito | My List{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1 class="heading">❤️ My List</h1>
+  <p class="description">
+    The ones you didn’t want to forget.
+  </p>
+
+  <div class="row">
+    {% for book in books %}
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="{{ book.image_url }}" class="card-img-top" alt="{{ book.title }}">
+
+        <div class="card-body">
+          <h5 class="card-title">{{ book.title }}</h5>
+
+          <p class="card-text">
+            {{ book.description[:180] }}{% if book.description|length > 180 %}…{% endif %}
+          </p>
+
+          {% if book.review %}
+          <p class="card-text">
+            <strong>Your take:</strong> {{ book.review }}
+          </p>
+          {% endif %}
+
+          <a href="{{ book.watch_link }}" class="btn btn-primary btn-sm" target="_blank">
+            🎥 Watch
+          </a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="text-center mt-4">
+    <a href="{{ url_for('home') }}" class="btn btn-secondary">
+      ← Back to picks
+    </a>
+  </div>
+</div>
+{% endblock %}

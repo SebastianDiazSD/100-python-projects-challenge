@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Cinecito | Tonight’s Picks{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1 class="heading">🎬 Cinecito</h1>
+  <p class="description">
+    Five fresh picks. Zero drama.
+    <br><span class="tagline">Tonight’s mood? We got you.</span>
+  </p>
+
+  <div class="card-deck">
+  <div class="row-top">
+    {% for book in books[:3] %}
+      {% include "card.html" %}
+    {% endfor %}
+  </div>
+
+  <div class="row-bottom">
+    {% for book in books[3:5] %}
+      {% include "card.html" %}
+    {% endfor %}
+  </div>
+</div>
+
+
+  <div class="container text-center add">
+    <a href="{{ url_for('refresh') }}" class="btn btn-secondary">
+      🔄 New picks, por favor
+    </a>
+    <a href="{{ url_for('favorites') }}" class="btn btn-outline-dark">
+      ❤️ My list
+    </a>
+  </div>
+</div>
+{% endblock %}
