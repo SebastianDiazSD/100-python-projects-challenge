@@ -132,6 +132,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 60 - [Contact Form Module – Flask & Bootstrap](60-contact-form)
 - [x] Project 61 - [Flask Login Form](61-flask-login-form)
 - [x] Project 62 - [Cafe Finder](62-coffee-and-wifi)
+- [x] Project 63 - [Book library App](63-library-project)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
