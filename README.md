@@ -136,6 +136,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 64 - [Movie Night Picker](64-top-movies)
 - [x] Project 65 - [Web Design](65-web-design)
 - [x] Project 66 - [Cafe & WiFi - REST API](66-cafe-wifi-REST-API)
+- [ ] Project 67 - [Upgraded Blog](67-upgraded-blog)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
