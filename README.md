@@ -134,6 +134,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 62 - [Cafe Finder](62-coffee-and-wifi)
 - [x] Project 63 - [Book library App](63-library-project)
 - [x] Project 64 - [Movie Night Picker](64-top-movies)
+- [x] Project 65 - [Web Design](65-web-design)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
