@@ -137,6 +137,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 65 - [Web Design](65-web-design)
 - [x] Project 66 - [Cafe & WiFi - REST API](66-cafe-wifi-REST-API)
 - [x] Project 67 - [Upgraded Blog](67-upgraded-blog)
+- [x] Project 68 - [Flask Authentication](68-flask-auth)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
