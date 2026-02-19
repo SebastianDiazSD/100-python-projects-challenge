@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="card">
+    <h1>Welcome, parcero 🇨🇴</h1>
+    <p>A secure Flask authentication system with Colombian flavor.</p>
+
+    {% if not logged_in %}
+        <div class="button-group">
+            <a href="{{ url_for('login') }}" class="btn primary">Login</a>
+            <a href="{{ url_for('register') }}" class="btn secondary">Create Account</a>
+        </div>
+    {% else %}
+        <p class="success-message">You are already logged in. ¡Todo bien!</p>
+    {% endif %}
+</div>
+
+{% endblock %}

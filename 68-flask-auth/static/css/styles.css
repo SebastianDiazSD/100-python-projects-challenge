@@ -1,0 +1,183 @@
+/* ==============================
+   Global Styles
+============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+
+    /* Colombian flag inspired gradient */
+    background: linear-gradient(
+        135deg,
+        #FCD116 0%,
+        #FCD116 40%,
+        #003893 40%,
+        #003893 70%,
+        #CE1126 70%,
+        #CE1126 100%
+    );
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* ==============================
+   Navbar
+============================== */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 15px 0;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #FCD116;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 400;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #FCD116;
+}
+
+/* ==============================
+   Main Layout
+============================== */
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* ==============================
+   Card Component
+============================== */
+
+.card {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.card h1 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* ==============================
+   Forms
+============================== */
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+/* ==============================
+   Buttons
+============================== */
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn.primary {
+    background-color: #003893;
+    color: white;
+    border: none;
+}
+
+.btn.primary:hover {
+    background-color: #CE1126;
+}
+
+.btn.secondary {
+    background-color: #FCD116;
+    color: black;
+}
+
+.btn.secondary:hover {
+    background-color: #003893;
+    color: white;
+}
+
+.btn.full {
+    width: 100%;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ==============================
+   Flash Messages
+============================== */
+
+.flash-container {
+    margin-bottom: 15px;
+}
+
+.flash-message {
+    background-color: #CE1126;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.success-message {
+    color: #FCD116;
+}
