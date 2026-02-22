@@ -1,0 +1,33 @@
+{% from "bootstrap5/form.html" import render_form %}
+{% include "header.html" %}
+
+<header class="masthead"
+  style="background-image: url('{{ url_for('static', filename='assets/img/login-railway.jpg') }}')">
+
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="page-heading">
+      <h1>Login</h1>
+      <span class="subheading">
+        Welcome back.
+      </span>
+    </div>
+  </div>
+</header>
+
+<div class="container px-4 px-lg-5">
+  <div class="col-md-8 col-lg-6 mx-auto">
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for message in messages %}
+          <div class="alert alert-warning">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    {{ render_form(form, button_map={"submit": "dark"}) }}
+
+  </div>
+</div>
+
+{% include "footer.html" %}
