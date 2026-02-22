@@ -138,6 +138,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 66 - [Cafe & WiFi - REST API](66-cafe-wifi-REST-API)
 - [x] Project 67 - [Upgraded Blog](67-upgraded-blog)
 - [x] Project 68 - [Flask Authentication](68-flask-auth)
+- [x] Project 69 - [Blog with User Authentication](69-blog-with-users)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
