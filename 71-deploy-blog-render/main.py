@@ -14,6 +14,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import relationship
 from functools import wraps
 from datetime import date
+from bs4 import BeautifulSoup
 import os
 
 # ----------------------------------------------------------
@@ -224,28 +225,27 @@ def logout():
 @admin_only
 def add_new_post():
     form = CreatePostForm()
-
     if form.validate_on_submit():
+        # CLEAN THE BODY BEFORE SAVING
+        clean_body = str(BeautifulSoup(form.body.data, "html.parser"))
+
         new_post = BlogPost(
             title=form.title.data,
             subtitle=form.subtitle.data,
-            body=form.body.data,
+            body=clean_body,                    # ← use cleaned version
             img_url=form.img_url.data,
             author=current_user,
             date=date.today().strftime("%B %d, %Y")
         )
-
         db.session.add(new_post)
         db.session.commit()
         return redirect(url_for("get_all_posts"))
-
     return render_template(
         "make-post.html",
         form=form,
         current_user=current_user,
         is_edit=False
     )
-
 
 @app.route("/edit-post/<int:post_id>", methods=["GET", "POST"])
 @admin_only
@@ -257,23 +257,22 @@ def edit_post(post_id):
         img_url=post.img_url,
         body=post.body
     )
-
     if edit_form.validate_on_submit():
+        # CLEAN THE BODY BEFORE SAVING
+        clean_body = str(BeautifulSoup(edit_form.body.data, "html.parser"))
+
         post.title = edit_form.title.data
         post.subtitle = edit_form.subtitle.data
         post.img_url = edit_form.img_url.data
-        post.body = edit_form.body.data
-
+        post.body = clean_body                     # ← use cleaned version
         db.session.commit()
         return redirect(url_for("show_post", post_id=post.id))
-
     return render_template(
         "make-post.html",
         form=edit_form,
         is_edit=True,
         current_user=current_user
     )
-
 
 @app.route("/delete/<int:post_id>")
 @admin_only
