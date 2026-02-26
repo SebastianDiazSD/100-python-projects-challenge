@@ -18,7 +18,9 @@
   <div class="container px-4 px-lg-5">
     <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
 
-      {{ post.body|safe }}
+      <div class="post-content">
+        {{ post.body|safe }}
+      </div>
 
       {% if current_user.id == 1 %}
       <div class="mt-4 d-flex justify-content-between">
