@@ -3,16 +3,27 @@
    Engineering Meets Code — Subtle Colombian Elegance
 ====================================================== */
 
+/* ------------------------------------------------------
+   Base Styles
+------------------------------------------------------ */
 body {
   font-family: "Open Sans", sans-serif;
   color: #212529;
   background-color: #f8f9fa;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* ------------------------------------------------------
    Navbar
 ------------------------------------------------------ */
-
 #mainNav {
   background-color: #ffffff;
   border-bottom: 1px solid #e5e5e5;
@@ -33,9 +44,8 @@ body {
 }
 
 /* ------------------------------------------------------
-   Masthead
+   Masthead / Header
 ------------------------------------------------------ */
-
 .masthead {
   position: relative;
   padding: 150px 0 100px;
@@ -70,114 +80,58 @@ body {
 }
 
 /* ------------------------------------------------------
-   Posts
+   Blog Post Container
 ------------------------------------------------------ */
-
-.post-preview {
-  margin-bottom: 2rem;
+.post-content-container {
+  max-width: 800px;           /* limits width for readability */
+  margin: 0 auto;             /* center on page */
+  background-color: #ffffff;  /* white background */
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-
-.post-preview a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.post-preview a:hover {
-  color: #0d6efd;
-}
-
-.post-title {
-  font-size: 1.75rem;
-  font-weight: 700;
-}
-
-.post-subtitle {
-  font-weight: 300;
-}
-
-.post-meta {
-  font-size: 0.9rem;
-  color: #6c757d;
-}
-
-/* ------------------------------------------------------
-   Article Content / CKEditor
------------------------------------------------------- */
 
 .post-content {
   line-height: 1.8;
   word-wrap: break-word;
-  background-color: #ffffff;
-  color: #212529;
-  padding: 20px;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+/* ------------------------------------------------------
+   Article / Text Content
+------------------------------------------------------ */
+article p {
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  margin-bottom: 2rem;
-}
-
-/* Ensure CKEditor paragraphs, lists, and headings display nicely */
-.post-content p,
-.post-content div,
-.post-content li {
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
-  font-weight: 600;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.post-content ul,
-.post-content ol {
-  padding-left: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.post-content a {
-  color: #0d6efd;
-  text-decoration: underline;
-}
-
-.post-content a:hover {
-  color: #0a58ca;
 }
 
 /* ------------------------------------------------------
    Buttons
 ------------------------------------------------------ */
-
-.btn-dark {
-  border-radius: 30px;
-  padding: 10px 25px;
-}
-
-.btn-outline-dark {
+.btn-dark, .btn-outline-dark {
   border-radius: 30px;
   padding: 10px 25px;
 }
 
 /* ------------------------------------------------------
-   Comments
+   Comments Section
 ------------------------------------------------------ */
-
 .comment-box {
-  background-color: #ffffff;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
+  background-color: #f8f9fa;
   padding: 15px;
-  margin-bottom: 1rem;
-  transition: transform 0.2s ease;
-}
-
-.comment-box:hover {
-  transform: translateY(-2px);
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .comment-box strong {
@@ -185,10 +139,23 @@ body {
   margin-bottom: 5px;
 }
 
+.comment-box .mt-2 {
+  margin-top: 5px;
+}
+
+.border.rounded {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef !important;
+  transition: transform 0.2s ease;
+}
+
+.border.rounded:hover {
+  transform: translateY(-2px);
+}
+
 /* ------------------------------------------------------
    Footer
 ------------------------------------------------------ */
-
 footer {
   padding: 30px 0;
   background-color: #ffffff;
@@ -196,4 +163,19 @@ footer {
 
 footer .small {
   color: #6c757d;
+  text-align: center;
+  display: block;
+}
+
+/* ------------------------------------------------------
+   Forms / CKEditor
+------------------------------------------------------ */
+.form-control {
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 1rem;
+}
+
+button.btn-dark {
+  margin-top: 10px;
 }
