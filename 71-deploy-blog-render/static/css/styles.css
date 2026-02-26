@@ -1,0 +1,152 @@
+/* ======================================================
+   RailCode Theme
+   Engineering Meets Code — Subtle Colombian Elegance
+====================================================== */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #212529;
+  background-color: #f8f9fa;
+}
+
+/* ------------------------------------------------------
+   Navbar
+------------------------------------------------------ */
+
+#mainNav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#mainNav .nav-link {
+  font-weight: 600;
+  color: #343a40;
+}
+
+#mainNav .nav-link:hover {
+  color: #0d6efd;
+}
+
+/* ------------------------------------------------------
+   Masthead
+------------------------------------------------------ */
+
+.masthead {
+  position: relative;
+  padding: 150px 0 100px;
+  background: no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.masthead::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.masthead .container {
+  position: relative;
+  z-index: 2;
+}
+
+.site-heading h1,
+.post-heading h1,
+.page-heading h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.subheading {
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+/* ------------------------------------------------------
+   Posts
+------------------------------------------------------ */
+
+.post-preview {
+  margin-bottom: 2rem;
+}
+
+.post-preview a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-preview a:hover {
+  color: #0d6efd;
+}
+
+.post-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.post-subtitle {
+  font-weight: 300;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+/* ------------------------------------------------------
+   Article Content
+------------------------------------------------------ */
+
+article p {
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ------------------------------------------------------
+   Buttons
+------------------------------------------------------ */
+
+.btn-dark {
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+.btn-outline-dark {
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+/* ------------------------------------------------------
+   Comments
+------------------------------------------------------ */
+
+.border.rounded {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef !important;
+  transition: transform 0.2s ease;
+}
+
+.border.rounded:hover {
+  transform: translateY(-2px);
+}
+
+/* ------------------------------------------------------
+   Footer
+------------------------------------------------------ */
+
+footer {
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+
+footer .small {
+  color: #6c757d;
+}
