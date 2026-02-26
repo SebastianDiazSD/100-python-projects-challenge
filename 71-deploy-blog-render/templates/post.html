@@ -41,7 +41,7 @@
       {% if current_user.is_authenticated %}
         {{ ckeditor.load() }}
         {{ ckeditor.config(name='comment_text') }}
-        {{ wtf.quick_form(form, button_map={"submit": "dark"}) }}
+        {{ render_form(form, button_style="dark") }}
       {% else %}
         <p class="text-muted">
           Please <a href="{{ url_for('login') }}">login</a> to leave a comment.
