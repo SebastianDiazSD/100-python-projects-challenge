@@ -100,6 +100,15 @@ body {
   color: #6c757d;
 }
 
+.post-content {
+    line-height: 1.8;         /* improves readability */
+    word-wrap: break-word;    /* prevents overflow */
+}
+
+.post-content p {
+    margin-bottom: 1rem;      /* spacing between paragraphs */
+}
+
 /* ------------------------------------------------------
    Article Content
 ------------------------------------------------------ */
