@@ -143,6 +143,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 71 - [Deploying a Flask Blog to Production](71-deploy-blog-render)
 - [x] Project 72 - [Data Exploration](72-data-exploration)
 - [x] Project 73 - [Data Visualization](73-data-visualization)
+- [x] Project 74 - [LEGO Through Time - Dataset Analysis](74-lego-analysis)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
