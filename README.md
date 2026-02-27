@@ -140,6 +140,8 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 68 - [Flask Authentication](68-flask-auth)
 - [x] Project 69 - [Blog with User Authentication](69-blog-with-users)
 - [x] Project 70 - [Git,GitHub & Version Control](70-git-gitHub-version-control)
+- [x] Project 71 - [Deploying a Flask Blog to Production](71-deploy-blog-render)
+- [x] Project 72 - [Data Exploration](72-data-exploration)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
