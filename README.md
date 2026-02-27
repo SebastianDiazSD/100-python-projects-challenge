@@ -142,6 +142,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 70 - [Git,GitHub & Version Control](70-git-gitHub-version-control)
 - [x] Project 71 - [Deploying a Flask Blog to Production](71-deploy-blog-render)
 - [x] Project 72 - [Data Exploration](72-data-exploration)
+- [x] Project 73 - [Data Visualization](73-data-visualization)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
