@@ -145,6 +145,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 73 - [Data Visualization](73-data-visualization)
 - [x] Project 74 - [LEGO Through Time - Dataset Analysis](74-lego-analysis)
 - [x] Project 75 - [Google Trends](75-google-trends)
+- [x] Project 76 - [Google Play Store Analysis](76-Google-Play-Store-Analysis)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
