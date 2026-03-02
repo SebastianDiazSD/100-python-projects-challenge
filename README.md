@@ -146,6 +146,8 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 74 - [LEGO Through Time - Dataset Analysis](74-lego-analysis)
 - [x] Project 75 - [Google Trends](75-google-trends)
 - [x] Project 76 - [Google Play Store Analysis](76-Google-Play-Store-Analysis)
+- [x] Project 77 - [NumPy N-Dimensional Arrays](77-Computation-NumPy)
+- [x] Project 78 - [Movie Budget vs Revenue Regression](78-Movies-Seaborn-Linear-Regression)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
