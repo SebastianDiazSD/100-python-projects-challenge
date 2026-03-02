@@ -148,6 +148,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 76 - [Google Play Store Analysis](76-Google-Play-Store-Analysis)
 - [x] Project 77 - [NumPy N-Dimensional Arrays](77-Computation-NumPy)
 - [x] Project 78 - [Movie Budget vs Revenue Regression](78-Movies-Seaborn-Linear-Regression)
+- [x] Project 79 - [Nobel Prize Analysis](79-Nobel-Prize-Analysis)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
