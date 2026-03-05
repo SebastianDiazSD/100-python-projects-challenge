@@ -1,0 +1,155 @@
+{% extends "base.html" %}
+
+{% block title %}Ground2Tech Engineering | {{ _("Contact") }}{% endblock %}
+{% block body_class %}contact-page{% endblock %}
+
+{% block content %}
+
+<section id="contact" class="contact section">
+
+<div class="container">
+
+<!-- SECTION TITLE -->
+<div class="section-title text-center" data-aos="fade-up">
+
+<h2>{{ _("Contact") }}</h2>
+
+<p>
+
+{{ _("Interested in engineering consulting or digital solutions for infrastructure projects? Feel free to get in touch.") }}
+
+</p>
+
+</div>
+
+
+<div class="row gy-4">
+
+<!-- CONTACT INFO -->
+<div class="col-lg-5" data-aos="fade-up">
+
+<div class="contact-info">
+
+<h3>{{ _("Get in Touch") }}</h3>
+
+<p>
+
+{{ _("We provide consulting services in infrastructure engineering, construction management, and digital engineering solutions.") }}
+
+</p>
+
+<div class="info-item">
+
+<i class="bi bi-envelope"></i>
+
+<h4>{{ _("Email") }}</h4>
+
+<p>contact@ground2tech.com</p>
+
+</div>
+
+<div class="info-item">
+
+<i class="bi bi-linkedin"></i>
+
+<h4>{{ _("LinkedIn") }}</h4>
+
+<p>
+
+<a href="https://www.linkedin.com/in/sebastian-arce-diaz91/">
+linkedin.com/in/sebastian-arce-diaz91
+</a>
+
+</p>
+
+</div>
+
+<div class="info-item">
+
+<i class="bi bi-github"></i>
+
+<h4>{{ _("GitHub") }}</h4>
+
+<p>
+
+<a href="https://github.com/SebastianDiazSD">
+github.com/SebastianDiazSD
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- CONTACT FORM -->
+<div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+
+<div class="contact-form">
+
+<form method="POST" action="{{ url_for('contact') }}">
+
+<div class="row gy-3">
+
+<div class="col-md-6">
+
+<input
+type="text"
+name="name"
+class="form-control"
+placeholder="{{ _('Your Name') }}"
+required>
+
+</div>
+
+
+<div class="col-md-6">
+
+<input
+type="email"
+name="email"
+class="form-control"
+placeholder="{{ _('Your Email') }}"
+required>
+
+</div>
+
+
+<div class="col-md-12">
+
+<textarea
+name="message"
+class="form-control"
+rows="6"
+placeholder="{{ _('Your Message') }}"
+required></textarea>
+
+</div>
+
+
+<div class="col-md-12 text-center">
+
+<button type="submit" class="btn btn-primary">
+{{ _("Send Message") }}
+</button>
+
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+{% endblock %}

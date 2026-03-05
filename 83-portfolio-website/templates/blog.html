@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}Ground2Tech Engineering | {{ _("Blog") }}{% endblock %}
+{% block body_class %}blog-page{% endblock %}
+
+{% block content %}
+
+<section class="blog section">
+
+<div class="container">
+
+<div class="section-title text-center" data-aos="fade-up">
+
+<h2>{{ _("Engineering & Technology Insights") }}</h2>
+
+<p>
+
+{{ _("Articles and insights about infrastructure engineering, digital construction, and Python-based automation for engineering workflows.") }}
+
+</p>
+
+</div>
+
+<div class="row gy-4">
+
+<div class="col-lg-4">
+
+<div class="blog-card">
+
+<h3>{{ _("Using Python in Construction Engineering") }}</h3>
+
+<p>
+
+{{ _("We explore how automation and scripting can improve engineering workflows, reporting processes, and project efficiency in construction environments.") }}
+
+</p>
+
+<a href="#">{{ _("Read more") }}</a>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-4">
+
+<div class="blog-card">
+
+<h3>{{ _("Digital Transformation in Infrastructure Projects") }}</h3>
+
+<p>
+
+{{ _("An overview of how digital tools, data analytics, and automation are changing the planning and delivery of infrastructure projects.") }}
+
+</p>
+
+<a href="#">{{ _("Read more") }}</a>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-4">
+
+<div class="blog-card">
+
+<h3>{{ _("Engineering Automation Tools") }}</h3>
+
+<p>
+
+{{ _("Examples of Python-based tools that help engineers automate calculations, manage data, and improve technical workflows.") }}
+
+</p>
+
+<a href="#">{{ _("Read more") }}</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+{% endblock %}

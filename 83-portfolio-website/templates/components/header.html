@@ -1,0 +1,87 @@
+<header id="header" class="header d-flex align-items-center sticky-top dark-background">
+
+  <div class="container d-flex justify-content-between align-items-center">
+
+    <!-- Logo -->
+    <a href="{{ url_for('home') }}" class="logo d-flex align-items-center">
+      <h1 class="sitename">Ground2Tech</h1>
+      <span class="ms-2">Engineering</span>
+    </a>
+
+    <!-- Navigation -->
+    <nav id="navmenu" class="navmenu">
+
+      <ul>
+
+        <li>
+          <a href="{{ url_for('home') }}"
+             class="{% if active_page == 'home' %}active{% endif %}">
+             {{ _("Home") }}
+          </a>
+        </li>
+
+        <li>
+          <a href="{{ url_for('about') }}"
+             class="{% if active_page == 'about' %}active{% endif %}">
+             {{ _("About") }}
+          </a>
+        </li>
+
+        <li>
+          <a href="{{ url_for('services') }}"
+             class="{% if active_page == 'services' %}active{% endif %}">
+             {{ _("Services") }}
+          </a>
+        </li>
+
+        <li>
+          <a href="{{ url_for('projects') }}"
+             class="{% if active_page == 'projects' %}active{% endif %}">
+             {{ _("Projects") }}
+          </a>
+        </li>
+
+        <li>
+          <a href="{{ url_for('blog') }}"
+             class="{% if active_page == 'blog' %}active{% endif %}">
+             {{ _("Blog") }}
+          </a>
+        </li>
+
+        <li>
+          <a href="{{ url_for('contact') }}"
+             class="{% if active_page == 'contact' %}active{% endif %}">
+             {{ _("Contact") }}
+          </a>
+        </li>
+
+      </ul>
+
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+    </nav>
+
+    <!-- Social + Language -->
+    <div class="header-social-links">
+
+      <!-- Language Switcher -->
+      <div class="language-switcher me-3">
+
+        <a href="{{ url_for(request.endpoint, lang='en') }}">EN</a> |
+        <a href="{{ url_for(request.endpoint, lang='de') }}">DE</a>
+
+      </div>
+
+      <a href="https://github.com/SebastianDiazSD">
+        <i class="bi bi-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/sebastian-arce-diaz91/">
+        <i class="bi bi-linkedin"></i>
+      </a>
+
+    </div>
+
+  </div>
+
+</header>

@@ -1,0 +1,343 @@
+{% extends "base.html" %}
+
+{% block title %}Ground2Tech Engineering | {{ _("About") }}{% endblock %}
+{% block body_class %}about-page{% endblock %}
+
+{% block content %}
+
+<section id="about" class="about section">
+
+<div class="container section-title" data-aos="fade-up">
+<h2>{{ _("About") }}</h2>
+</div>
+
+<div class="container" data-aos="fade-up" data-aos-delay="100">
+
+<!-- Company Introduction -->
+<div class="row align-items-center justify-content-between gy-5 mb-5">
+
+<div class="col-lg-7" data-aos="fade-right">
+
+<div class="intro-content">
+
+<h2 class="headline">
+{{ _("Engineering expertise combined with digital innovation for modern infrastructure.") }}
+</h2>
+
+<p class="lead">
+{{ _("We deliver engineering services and digital solutions that improve the planning, execution, and monitoring of infrastructure projects.") }}
+</p>
+
+<p>
+{{ _("Our approach combines hands-on experience in construction and railway infrastructure with modern digital tools, automation, and data-driven workflows.") }}
+</p>
+
+<p>
+{{ _("With international experience in complex infrastructure environments, we support projects with a strong focus on reliability, efficiency, and structured project delivery.") }}
+</p>
+
+<div class="cta-group">
+
+<a href="{{ url_for('projects') }}" class="btn-ghost">
+
+{{ _("Explore Our Projects") }} <i class="bi bi-arrow-up-right"></i>
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-5" data-aos="zoom-in">
+
+<figure class="profile-figure text-center text-lg-end">
+
+<img src="{{ url_for('static', filename='assets/img/profile/profile_sebastian.webp') }}"
+alt="Infrastructure Engineering"
+class="img-fluid profile-photo">
+
+</figure>
+
+</div>
+
+</div>
+
+
+
+<!-- Core Expertise -->
+<div class="mb-5">
+
+<h2>{{ _("Core Expertise") }}</h2>
+
+<p class="section-intro">
+
+{{ _("We combine practical construction experience with digital engineering methods to support complex infrastructure projects.") }}
+
+</p>
+
+<div class="row g-4">
+
+<div class="col-6 col-md-4 col-lg-3">
+
+<div class="skill-item">
+
+<i class="bi bi-building-gear"></i>
+
+<h3>{{ _("Construction & Site Management") }}</h3>
+
+<p>
+
+{{ _("Supervision and coordination of infrastructure construction projects with a focus on quality, safety, and regulatory compliance.") }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-6 col-md-4 col-lg-3">
+
+<div class="skill-item">
+
+<i class="bi bi-diagram-3"></i>
+
+<h3>{{ _("Project & Stakeholder Coordination") }}</h3>
+
+<p>
+
+{{ _("Structured coordination between project stakeholders, contractors, and technical disciplines to ensure efficient project execution.") }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-6 col-md-4 col-lg-3">
+
+<div class="skill-item">
+
+<i class="bi bi-calculator"></i>
+
+<h3>{{ _("Cost & Quantity Management") }}</h3>
+
+<p>
+
+{{ _("Reliable quantity analysis, cost monitoring, and change management across the lifecycle of infrastructure projects.") }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-6 col-md-4 col-lg-3">
+
+<div class="skill-item">
+
+<i class="bi bi-database"></i>
+
+<h3>{{ _("Digital Engineering & Data Solutions") }}</h3>
+
+<p>
+
+{{ _("Integration of digital tools, automation, and data analytics to improve reporting, planning accuracy, and operational efficiency.") }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-6 col-md-4 col-lg-3">
+
+<div class="skill-item">
+
+<i class="bi bi-folder-check"></i>
+
+<h3>{{ _("Systems & Technical Documentation") }}</h3>
+
+<p>
+
+{{ _("Experience working with structured engineering documentation systems and digital project environments.") }}
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- Company Experience Timeline -->
+<div class="mb-5">
+
+<h2>{{ _("Professional Experience") }}</h2>
+
+<p class="section-intro">
+
+{{ _("Our expertise is built on years of experience across construction, infrastructure planning, and railway project delivery.") }}
+
+</p>
+
+<div class="row g-4">
+
+<div class="col-md-4 col-lg-2">
+
+<article class="timeline-item">
+
+<span class="dot"></span>
+
+<h4>{{ _("Civil Engineering Foundation") }}</h4>
+
+<small class="timeline-meta">{{ _("Engineering Education · 2014") }}</small>
+
+<p>
+
+{{ _("Establishing the technical foundation in structural design, construction processes, and infrastructure engineering.") }}
+
+</p>
+
+</article>
+
+</div>
+
+
+<div class="col-md-4 col-lg-2">
+
+<article class="timeline-item">
+
+<span class="dot"></span>
+
+<h4>{{ _("Site Engineering Experience") }}</h4>
+
+<small class="timeline-meta">{{ _("Construction Projects · 2015") }}</small>
+
+<p>
+
+{{ _("Practical experience in construction supervision and site coordination within residential and infrastructure projects.") }}
+
+</p>
+
+</article>
+
+</div>
+
+
+<div class="col-md-4 col-lg-2">
+
+<article class="timeline-item">
+
+<span class="dot"></span>
+
+<h4>{{ _("Infrastructure Planning Expertise") }}</h4>
+
+<small class="timeline-meta">{{ _("Master’s Degree · 2021") }}</small>
+
+<p>
+
+{{ _("Advanced studies in infrastructure planning with a focus on sustainable transportation systems and urban development.") }}
+
+</p>
+
+</article>
+
+</div>
+
+
+<div class="col-md-4 col-lg-2">
+
+<article class="timeline-item">
+
+<span class="dot"></span>
+
+<h4>{{ _("Railway Infrastructure Projects") }}</h4>
+
+<small class="timeline-meta">{{ _("Bridge Construction · 2021") }}</small>
+
+<p>
+
+{{ _("Project engineering roles supporting complex railway infrastructure development and construction delivery.") }}
+
+</p>
+
+</article>
+
+</div>
+
+
+<div class="col-md-4 col-lg-2">
+
+<article class="timeline-item">
+
+<span class="dot"></span>
+
+<h4>{{ _("Digital Rail Infrastructure") }}</h4>
+
+<small class="timeline-meta">{{ _("Technical Infrastructure · 2024") }}</small>
+
+<p>
+
+{{ _("Engineering coordination for digital infrastructure supporting railway operations and data systems.") }}
+
+</p>
+
+</article>
+
+</div>
+
+
+<div class="col-md-4 col-lg-2">
+
+<article class="timeline-item">
+
+<span class="dot"></span>
+
+<h4>{{ _("Railway Construction Supervision") }}</h4>
+
+<small class="timeline-meta">{{ _("Infrastructure Delivery · 2025") }}</small>
+
+<p>
+
+{{ _("Supervision of railway track installation, bridges, crossings, and sound barriers across active infrastructure projects.") }}
+
+</p>
+
+</article>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- Quote -->
+
+<blockquote class="personal-quote text-center mb-5">
+
+<p>
+
+{{ _("From foundation to innovation — delivering infrastructure projects through structured engineering and integrated digital solutions.") }}
+
+</p>
+
+</blockquote>
+
+</div>
+
+</section>
+
+{% endblock %}

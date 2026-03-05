@@ -1,0 +1,262 @@
+# German translations for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-03-05 17:33+0100\n"
+"PO-Revision-Date: 2026-03-05 17:35+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: app.py:107
+msgid "Please fill out all required fields."
+msgstr "Bitte füllen Sie alle erforderlichen Felder aus."
+
+#: app.py:111
+msgid "New Contact Form Submission"
+msgstr "Neue Kontaktformular-Nachricht"
+
+#: app.py:125
+msgid "Your message has been sent successfully!"
+msgstr "Ihre Nachricht wurde erfolgreich gesendet."
+
+#: app.py:129
+msgid "Error sending message."
+msgstr "Fehler beim Senden der Nachricht."
+
+#: templates/about.html:3 templates/about.html:11
+#: templates/components/header.html:26
+msgid "About"
+msgstr "Über uns"
+
+#: templates/about.html:24
+msgid ""
+"Engineering expertise combined with digital innovation for modern "
+"infrastructure."
+msgstr "Ingenieurkompetenz kombiniert mit digitaler Innovation für moderne Infrastruktur."
+
+#: templates/about.html:28
+msgid ""
+"We deliver engineering services and digital solutions that improve the "
+"planning, execution, and monitoring of infrastructure projects."
+msgstr "Wir bieten Ingenieurleistungen und digitale Lösungen, die Planung, Umsetzung und Überwachung von Infrastrukturprojekten verbessern."
+
+#: templates/about.html:32
+msgid ""
+"Our approach combines hands-on experience in construction and railway "
+"infrastructure with modern digital tools, automation, and data-driven "
+"workflows."
+msgstr "Unser Ansatz verbindet praktische Erfahrung im Bauwesen und in der Eisenbahninfrastruktur mit modernen digitalen Werkzeugen, Automatisierung und datenbasierten Arbeitsabläufen."
+
+#: templates/about.html:36
+msgid ""
+"With international experience in complex infrastructure environments, we "
+"support projects with a strong focus on reliability, efficiency, and "
+"structured project delivery."
+msgstr "Mit internationaler Erfahrung in komplexen Infrastrukturprojekten unterstützen wir Projekte mit einem starken Fokus auf Zuverlässigkeit, Effizienz und strukturierte Projektabwicklung."
+
+#: templates/about.html:43
+msgid "Explore Our Projects"
+msgstr "Unsere Projekte entdecken"
+
+#: templates/about.html:73
+msgid "Core Expertise"
+msgstr "Kernkompetenzen"
+
+#: templates/about.html:77
+msgid ""
+"We combine practical construction experience with digital engineering "
+"methods to support complex infrastructure projects."
+msgstr "Wir verbinden praktische Bauerfahrung mit digitalen Ingenieurmethoden zur Unterstützung komplexer Infrastrukturprojekte."
+
+#: templates/about.html:89
+msgid "Construction & Site Management"
+msgstr "Bau- und Baustellenmanagement"
+
+#: templates/about.html:93
+msgid ""
+"Supervision and coordination of infrastructure construction projects with"
+" a focus on quality, safety, and regulatory compliance."
+msgstr "Überwachung und Koordination von Infrastrukturprojekten mit Fokus auf Qualität, Sicherheit und Einhaltung gesetzlicher Vorschriften."
+
+#: templates/about.html:108
+msgid "Project & Stakeholder Coordination"
+msgstr "Projekt- und Stakeholderkoordination"
+
+#: templates/about.html:112
+msgid ""
+"Structured coordination between project stakeholders, contractors, and "
+"technical disciplines to ensure efficient project execution."
+msgstr "Strukturierte Koordination zwischen Projektbeteiligten, Auftragnehmern und Fachdisziplinen zur effizienten Projektumsetzung."
+
+#: templates/about.html:127
+msgid "Cost & Quantity Management"
+msgstr "Kosten- und Mengenkontrolle"
+
+#: templates/about.html:131
+msgid ""
+"Reliable quantity analysis, cost monitoring, and change management across"
+" the lifecycle of infrastructure projects."
+msgstr "Zuverlässige Mengenermittlung, Kostenüberwachung und Änderungsmanagement über den gesamten Lebenszyklus von Infrastrukturprojekten."
+
+#: templates/about.html:146
+msgid "Digital Engineering & Data Solutions"
+msgstr "Digital Engineering und Datenlösungen"
+
+#: templates/about.html:150
+msgid ""
+"Integration of digital tools, automation, and data analytics to improve "
+"reporting, planning accuracy, and operational efficiency."
+msgstr "Integration digitaler Werkzeuge, Automatisierung und Datenanalyse zur Verbesserung von Berichterstattung, Planungsgenauigkeit und Effizienz."
+
+#: templates/about.html:165
+msgid "Systems & Technical Documentation"
+msgstr "Systeme und technische Dokumentation"
+
+#: templates/about.html:169
+msgid ""
+"Experience working with structured engineering documentation systems and "
+"digital project environments."
+msgstr "Erfahrung im Umgang mit strukturierten Dokumentationssystemen und digitalen Projektumgebungen."
+
+#: templates/about.html:186
+msgid "Professional Experience"
+msgstr "Berufliche Erfahrung"
+
+#: templates/about.html:190
+msgid ""
+"Our expertise is built on years of experience across construction, "
+"infrastructure planning, and railway project delivery."
+msgstr "Unsere Kompetenz basiert auf langjähriger Erfahrung in Bauwesen, Infrastrukturplanung und der Umsetzung von Eisenbahnprojekten."
+
+#: templates/blog.html:3 templates/components/header.html:47
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/blog.html:14
+msgid "Engineering & Technology Insights"
+msgstr "Einblicke in Engineering und Technologie"
+
+#: templates/blog.html:18
+msgid ""
+"Articles and insights about infrastructure engineering, digital "
+"construction, and Python-based automation for engineering workflows."
+msgstr "Artikel und Einblicke zu Infrastrukturengineering, digitalem Bauen und Python-basierter Automatisierung für technische Arbeitsabläufe."
+
+#: templates/blog.html:30
+msgid "Using Python in Construction Engineering"
+msgstr "Einsatz von Python im Bauingenieurwesen"
+
+#: templates/blog.html:38 templates/blog.html:57 templates/blog.html:76
+msgid "Read more"
+msgstr "Mehr erfahren"
+
+#: templates/components/header.html:54 templates/contact.html:3
+#: templates/contact.html:15 templates/index.html:41
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/contact.html:19
+msgid ""
+"Interested in engineering consulting or digital solutions for "
+"infrastructure projects? Feel free to get in touch."
+msgstr "Interessiert an Ingenieurberatung oder digitalen Lösungen für Infrastrukturprojekte? Kontaktieren Sie uns gerne."
+
+#: templates/contact.html:33 templates/index.html:237
+msgid "Get in Touch"
+msgstr "Kontakt aufnehmen"
+
+#: templates/contact.html:45
+msgid "Email"
+msgstr "E-Mail"
+
+#: templates/contact.html:55
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: templates/contact.html:71
+msgid "GitHub"
+msgstr "GitHub"
+
+#: templates/contact.html:103
+msgid "Your Name"
+msgstr "Ihr Name"
+
+#: templates/contact.html:115
+msgid "Your Email"
+msgstr "Ihre E-Mail"
+
+#: templates/contact.html:127
+msgid "Your Message"
+msgstr "Ihre Nachricht"
+
+#: templates/contact.html:136
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+#: templates/index.html:21
+msgid "Engineering & Digital Solutions for Infrastructure"
+msgstr "Engineering- und Digitallösungen für Infrastruktur"
+
+#: templates/index.html:37
+msgid "Our Services"
+msgstr "Unsere Leistungen"
+
+#: templates/index.html:73
+msgid "Core Services"
+msgstr "Kernleistungen"
+
+#: templates/index.html:89 templates/services.html:36
+msgid "Construction Management"
+msgstr "Bauüberwachung"
+
+#: templates/index.html:108
+msgid "Project & Engineering Support"
+msgstr "Projekt- und Ingenieurunterstützung"
+
+#: templates/index.html:127
+msgid "Digital Engineering Solutions"
+msgstr "Digitale Engineeringlösungen"
+
+#: templates/index.html:154 templates/projects.html:14
+msgid "Projects & Engineering Tools"
+msgstr "Projekte und Engineering-Tools"
+
+#: templates/index.html:228
+msgid "Looking for Engineering or Digital Solutions?"
+msgstr "Suchen Sie nach Engineering- oder Digitallösungen?"
+
+#: templates/components/header.html:40 templates/projects.html:3
+msgid "Projects"
+msgstr "Projekte"
+
+#: templates/components/header.html:33 templates/services.html:3
+#: templates/services.html:15
+msgid "Services"
+msgstr "Leistungen"
+
+#: templates/components/footer.html:9
+msgid "Copyright"
+msgstr "Urheberrecht"
+
+#: templates/components/footer.html:11
+msgid "All Rights Reserved"
+msgstr "Alle Rechte vorbehalten"
+
+#: templates/components/footer.html:31
+msgid "Civil Engineering • Infrastructure • Digital Solutions"
+msgstr "Bauingenieurwesen • Infrastruktur • Digitale Lösungen"
+
+#: templates/components/header.html:19
+msgid "Home"
+msgstr "Startseite"

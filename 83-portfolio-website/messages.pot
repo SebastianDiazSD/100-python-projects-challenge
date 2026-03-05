@@ -1,0 +1,593 @@
+# Translations template for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-03-05 17:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: app.py:107
+msgid "Please fill out all required fields."
+msgstr ""
+
+#: app.py:111
+msgid "New Contact Form Submission"
+msgstr ""
+
+#: app.py:125
+msgid "Your message has been sent successfully!"
+msgstr ""
+
+#: app.py:129
+msgid "Error sending message."
+msgstr ""
+
+#: templates/about.html:3 templates/about.html:11
+#: templates/components/header.html:26
+msgid "About"
+msgstr ""
+
+#: templates/about.html:24
+msgid ""
+"Engineering expertise combined with digital innovation for modern "
+"infrastructure."
+msgstr ""
+
+#: templates/about.html:28
+msgid ""
+"We deliver engineering services and digital solutions that improve the "
+"planning, execution, and monitoring of infrastructure projects."
+msgstr ""
+
+#: templates/about.html:32
+msgid ""
+"Our approach combines hands-on experience in construction and railway "
+"infrastructure with modern digital tools, automation, and data-driven "
+"workflows."
+msgstr ""
+
+#: templates/about.html:36
+msgid ""
+"With international experience in complex infrastructure environments, we "
+"support projects with a strong focus on reliability, efficiency, and "
+"structured project delivery."
+msgstr ""
+
+#: templates/about.html:43
+msgid "Explore Our Projects"
+msgstr ""
+
+#: templates/about.html:73
+msgid "Core Expertise"
+msgstr ""
+
+#: templates/about.html:77
+msgid ""
+"We combine practical construction experience with digital engineering "
+"methods to support complex infrastructure projects."
+msgstr ""
+
+#: templates/about.html:89
+msgid "Construction & Site Management"
+msgstr ""
+
+#: templates/about.html:93
+msgid ""
+"Supervision and coordination of infrastructure construction projects with"
+" a focus on quality, safety, and regulatory compliance."
+msgstr ""
+
+#: templates/about.html:108
+msgid "Project & Stakeholder Coordination"
+msgstr ""
+
+#: templates/about.html:112
+msgid ""
+"Structured coordination between project stakeholders, contractors, and "
+"technical disciplines to ensure efficient project execution."
+msgstr ""
+
+#: templates/about.html:127
+msgid "Cost & Quantity Management"
+msgstr ""
+
+#: templates/about.html:131
+msgid ""
+"Reliable quantity analysis, cost monitoring, and change management across"
+" the lifecycle of infrastructure projects."
+msgstr ""
+
+#: templates/about.html:146
+msgid "Digital Engineering & Data Solutions"
+msgstr ""
+
+#: templates/about.html:150
+msgid ""
+"Integration of digital tools, automation, and data analytics to improve "
+"reporting, planning accuracy, and operational efficiency."
+msgstr ""
+
+#: templates/about.html:165
+msgid "Systems & Technical Documentation"
+msgstr ""
+
+#: templates/about.html:169
+msgid ""
+"Experience working with structured engineering documentation systems and "
+"digital project environments."
+msgstr ""
+
+#: templates/about.html:186
+msgid "Professional Experience"
+msgstr ""
+
+#: templates/about.html:190
+msgid ""
+"Our expertise is built on years of experience across construction, "
+"infrastructure planning, and railway project delivery."
+msgstr ""
+
+#: templates/about.html:202
+msgid "Civil Engineering Foundation"
+msgstr ""
+
+#: templates/about.html:204
+msgid "Engineering Education · 2014"
+msgstr ""
+
+#: templates/about.html:208
+msgid ""
+"Establishing the technical foundation in structural design, construction "
+"processes, and infrastructure engineering."
+msgstr ""
+
+#: templates/about.html:223
+msgid "Site Engineering Experience"
+msgstr ""
+
+#: templates/about.html:225
+msgid "Construction Projects · 2015"
+msgstr ""
+
+#: templates/about.html:229
+msgid ""
+"Practical experience in construction supervision and site coordination "
+"within residential and infrastructure projects."
+msgstr ""
+
+#: templates/about.html:244
+msgid "Infrastructure Planning Expertise"
+msgstr ""
+
+#: templates/about.html:246
+msgid "Master’s Degree · 2021"
+msgstr ""
+
+#: templates/about.html:250
+msgid ""
+"Advanced studies in infrastructure planning with a focus on sustainable "
+"transportation systems and urban development."
+msgstr ""
+
+#: templates/about.html:265
+msgid "Railway Infrastructure Projects"
+msgstr ""
+
+#: templates/about.html:267
+msgid "Bridge Construction · 2021"
+msgstr ""
+
+#: templates/about.html:271
+msgid ""
+"Project engineering roles supporting complex railway infrastructure "
+"development and construction delivery."
+msgstr ""
+
+#: templates/about.html:286
+msgid "Digital Rail Infrastructure"
+msgstr ""
+
+#: templates/about.html:288
+msgid "Technical Infrastructure · 2024"
+msgstr ""
+
+#: templates/about.html:292
+msgid ""
+"Engineering coordination for digital infrastructure supporting railway "
+"operations and data systems."
+msgstr ""
+
+#: templates/about.html:307
+msgid "Railway Construction Supervision"
+msgstr ""
+
+#: templates/about.html:309
+msgid "Infrastructure Delivery · 2025"
+msgstr ""
+
+#: templates/about.html:313
+msgid ""
+"Supervision of railway track installation, bridges, crossings, and sound "
+"barriers across active infrastructure projects."
+msgstr ""
+
+#: templates/about.html:333
+msgid ""
+"From foundation to innovation — delivering infrastructure projects "
+"through structured engineering and integrated digital solutions."
+msgstr ""
+
+#: templates/blog.html:3 templates/components/header.html:47
+msgid "Blog"
+msgstr ""
+
+#: templates/blog.html:14
+msgid "Engineering & Technology Insights"
+msgstr ""
+
+#: templates/blog.html:18
+msgid ""
+"Articles and insights about infrastructure engineering, digital "
+"construction, and Python-based automation for engineering workflows."
+msgstr ""
+
+#: templates/blog.html:30
+msgid "Using Python in Construction Engineering"
+msgstr ""
+
+#: templates/blog.html:34
+msgid ""
+"We explore how automation and scripting can improve engineering "
+"workflows, reporting processes, and project efficiency in construction "
+"environments."
+msgstr ""
+
+#: templates/blog.html:38 templates/blog.html:57 templates/blog.html:76
+msgid "Read more"
+msgstr ""
+
+#: templates/blog.html:49
+msgid "Digital Transformation in Infrastructure Projects"
+msgstr ""
+
+#: templates/blog.html:53
+msgid ""
+"An overview of how digital tools, data analytics, and automation are "
+"changing the planning and delivery of infrastructure projects."
+msgstr ""
+
+#: templates/blog.html:68 templates/projects.html:64
+msgid "Engineering Automation Tools"
+msgstr ""
+
+#: templates/blog.html:72
+msgid ""
+"Examples of Python-based tools that help engineers automate calculations,"
+" manage data, and improve technical workflows."
+msgstr ""
+
+#: templates/components/header.html:54 templates/contact.html:3
+#: templates/contact.html:15 templates/index.html:41
+msgid "Contact"
+msgstr ""
+
+#: templates/contact.html:19
+msgid ""
+"Interested in engineering consulting or digital solutions for "
+"infrastructure projects? Feel free to get in touch."
+msgstr ""
+
+#: templates/contact.html:33 templates/index.html:237
+msgid "Get in Touch"
+msgstr ""
+
+#: templates/contact.html:37
+msgid ""
+"We provide consulting services in infrastructure engineering, "
+"construction management, and digital engineering solutions."
+msgstr ""
+
+#: templates/contact.html:45
+msgid "Email"
+msgstr ""
+
+#: templates/contact.html:55
+msgid "LinkedIn"
+msgstr ""
+
+#: templates/contact.html:71
+msgid "GitHub"
+msgstr ""
+
+#: templates/contact.html:103
+msgid "Your Name"
+msgstr ""
+
+#: templates/contact.html:115
+msgid "Your Email"
+msgstr ""
+
+#: templates/contact.html:127
+msgid "Your Message"
+msgstr ""
+
+#: templates/contact.html:136
+msgid "Send Message"
+msgstr ""
+
+#: templates/index.html:21
+msgid "Engineering & Digital Solutions for Infrastructure"
+msgstr ""
+
+#: templates/index.html:30
+msgid ""
+"Civil engineering expertise combined with automation, data analysis and "
+"Python tools to improve infrastructure project delivery."
+msgstr ""
+
+#: templates/index.html:37
+msgid "Our Services"
+msgstr ""
+
+#: templates/index.html:73
+msgid "Core Services"
+msgstr ""
+
+#: templates/index.html:76
+msgid ""
+"Engineering expertise combined with digital innovation for modern "
+"infrastructure projects."
+msgstr ""
+
+#: templates/index.html:89 templates/services.html:36
+msgid "Construction Management"
+msgstr ""
+
+#: templates/index.html:93
+msgid ""
+"Supervision and coordination of railway and infrastructure construction "
+"projects."
+msgstr ""
+
+#: templates/index.html:108
+msgid "Project & Engineering Support"
+msgstr ""
+
+#: templates/index.html:112
+msgid ""
+"Technical coordination, documentation, and project management across "
+"infrastructure projects."
+msgstr ""
+
+#: templates/index.html:127
+msgid "Digital Engineering Solutions"
+msgstr ""
+
+#: templates/index.html:131
+msgid ""
+"Python automation, data analytics, and digital tools for engineering "
+"workflows."
+msgstr ""
+
+#: templates/index.html:154 templates/projects.html:14
+msgid "Projects & Engineering Tools"
+msgstr ""
+
+#: templates/index.html:158
+msgid ""
+"Examples of infrastructure engineering, automation tools and technical "
+"solutions."
+msgstr ""
+
+#: templates/index.html:170 templates/projects.html:30
+msgid "Railway Infrastructure Supervision"
+msgstr ""
+
+#: templates/index.html:174
+msgid ""
+"On-site supervision of railway works including track installation, "
+"bridges and sound barriers."
+msgstr ""
+
+#: templates/index.html:187
+msgid "Construction Data Analytics"
+msgstr ""
+
+#: templates/index.html:191
+msgid "Automation and reporting tools to improve construction project monitoring."
+msgstr ""
+
+#: templates/index.html:204
+msgid "Engineering Automation"
+msgstr ""
+
+#: templates/index.html:208
+msgid ""
+"Development of Python tools to streamline engineering calculations and "
+"workflows."
+msgstr ""
+
+#: templates/index.html:228
+msgid "Looking for Engineering or Digital Solutions?"
+msgstr ""
+
+#: templates/index.html:232
+msgid ""
+"We support infrastructure projects with engineering expertise and digital"
+" innovation."
+msgstr ""
+
+#: templates/components/header.html:40 templates/projects.html:3
+msgid "Projects"
+msgstr ""
+
+#: templates/projects.html:18
+msgid ""
+"A selection of engineering projects, automation tools, and infrastructure"
+" solutions demonstrating our technical expertise."
+msgstr ""
+
+#: templates/projects.html:34
+msgid ""
+"We support railway construction projects through on-site supervision, "
+"coordination of contractors, and monitoring of infrastructure works "
+"including track installation, bridges, and related systems."
+msgstr ""
+
+#: templates/projects.html:47
+msgid "Construction Data Dashboard"
+msgstr ""
+
+#: templates/projects.html:51
+msgid ""
+"We develop data dashboards and analytical tools to monitor construction "
+"progress, track project performance, and support data-driven decision-"
+"making in infrastructure projects."
+msgstr ""
+
+#: templates/projects.html:68
+msgid ""
+"We create Python-based engineering tools that automate calculations, "
+"streamline reporting, and improve efficiency in technical project "
+"workflows."
+msgstr ""
+
+#: templates/components/header.html:33 templates/services.html:3
+#: templates/services.html:15
+msgid "Services"
+msgstr ""
+
+#: templates/services.html:19
+msgid ""
+"We provide technical expertise and digital solutions to support "
+"infrastructure and construction projects."
+msgstr ""
+
+#: templates/services.html:40
+msgid ""
+"Supervision and coordination of complex infrastructure projects including"
+" railway construction, civil works, and multidisciplinary project "
+"environments."
+msgstr ""
+
+#: templates/services.html:46
+msgid "Site supervision"
+msgstr ""
+
+#: templates/services.html:48
+msgid "Contractor coordination"
+msgstr ""
+
+#: templates/services.html:50
+msgid "Quality and safety monitoring"
+msgstr ""
+
+#: templates/services.html:52
+msgid "Construction documentation"
+msgstr ""
+
+#: templates/services.html:69
+msgid "Engineering & Project Support"
+msgstr ""
+
+#: templates/services.html:73
+msgid ""
+"Technical coordination and structured project management to support "
+"efficient delivery of infrastructure projects."
+msgstr ""
+
+#: templates/services.html:79
+msgid "Project coordination"
+msgstr ""
+
+#: templates/services.html:81
+msgid "Stakeholder communication"
+msgstr ""
+
+#: templates/services.html:83
+msgid "Technical documentation"
+msgstr ""
+
+#: templates/services.html:85
+msgid "Planning and reporting"
+msgstr ""
+
+#: templates/services.html:102
+msgid "Digital Engineering & Automation"
+msgstr ""
+
+#: templates/services.html:106
+msgid ""
+"Development of digital tools and automation solutions to improve "
+"engineering workflows and project efficiency."
+msgstr ""
+
+#: templates/services.html:112
+msgid "Python automation tools"
+msgstr ""
+
+#: templates/services.html:114
+msgid "Workflow optimization"
+msgstr ""
+
+#: templates/services.html:116
+msgid "Engineering data processing"
+msgstr ""
+
+#: templates/services.html:118
+msgid "Reporting automation"
+msgstr ""
+
+#: templates/services.html:135
+msgid "Infrastructure Data Analytics"
+msgstr ""
+
+#: templates/services.html:139
+msgid ""
+"Using data analytics and digital methods to support decision-making in "
+"infrastructure planning and project management."
+msgstr ""
+
+#: templates/services.html:145
+msgid "Construction data analysis"
+msgstr ""
+
+#: templates/services.html:147
+msgid "Project performance dashboards"
+msgstr ""
+
+#: templates/services.html:149
+msgid "Infrastructure data insights"
+msgstr ""
+
+#: templates/services.html:151
+msgid "Engineering data visualization"
+msgstr ""
+
+#: templates/components/footer.html:9
+msgid "Copyright"
+msgstr ""
+
+#: templates/components/footer.html:11
+msgid "All Rights Reserved"
+msgstr ""
+
+#: templates/components/footer.html:31
+msgid "Civil Engineering • Infrastructure • Digital Solutions"
+msgstr ""
+
+#: templates/components/header.html:19
+msgid "Home"
+msgstr ""
+

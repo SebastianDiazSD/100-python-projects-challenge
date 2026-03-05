@@ -1,0 +1,244 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Ground2Tech Engineering{% endblock %}
+{% block body_class %}home-page{% endblock %}
+
+{% block content %}
+
+<!-- HERO SECTION -->
+<section id="hero" class="hero section">
+
+<div class="container" data-aos="fade-up">
+
+<div class="row gy-4 align-items-center">
+
+<!-- LEFT -->
+<div class="col-lg-6">
+
+<div class="hero-content">
+
+<h1 data-aos="fade-up">
+{{ _("Engineering & Digital Solutions for Infrastructure") }}
+</h1>
+
+<h2 data-aos="fade-up" data-aos-delay="100">
+Ground2Tech Engineering
+</h2>
+
+<p data-aos="fade-up" data-aos-delay="200">
+
+{{ _("Civil engineering expertise combined with automation, data analysis and Python tools to improve infrastructure project delivery.") }}
+
+</p>
+
+<div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
+
+<a href="{{ url_for('services') }}" class="btn btn-primary">
+{{ _("Our Services") }}
+</a>
+
+<a href="{{ url_for('contact') }}" class="btn btn-outline">
+{{ _("Contact") }}
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- RIGHT IMAGE -->
+<div class="col-lg-6 text-center">
+
+<img src="{{ url_for('static', filename='assets/img/profile/profile_sebastian.webp') }}"
+class="img-fluid rounded-circle"
+alt="Sebastian Arce">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SERVICES PREVIEW -->
+<section class="services section">
+
+<div class="container">
+
+<div class="section-title text-center" data-aos="fade-up">
+
+<h2>{{ _("Core Services") }}</h2>
+
+<p>
+{{ _("Engineering expertise combined with digital innovation for modern infrastructure projects.") }}
+</p>
+
+</div>
+
+<div class="row gy-4">
+
+<div class="col-lg-4" data-aos="fade-up">
+
+<div class="service-item">
+
+<i class="bi bi-building"></i>
+
+<h3>{{ _("Construction Management") }}</h3>
+
+<p>
+
+{{ _("Supervision and coordination of railway and infrastructure construction projects.") }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+<div class="service-item">
+
+<i class="bi bi-diagram-3"></i>
+
+<h3>{{ _("Project & Engineering Support") }}</h3>
+
+<p>
+
+{{ _("Technical coordination, documentation, and project management across infrastructure projects.") }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+
+<div class="service-item">
+
+<i class="bi bi-cpu"></i>
+
+<h3>{{ _("Digital Engineering Solutions") }}</h3>
+
+<p>
+
+{{ _("Python automation, data analytics, and digital tools for engineering workflows.") }}
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- PROJECTS PREVIEW -->
+<section class="projects section">
+
+<div class="container">
+
+<div class="section-title text-center" data-aos="fade-up">
+
+<h2>{{ _("Projects & Engineering Tools") }}</h2>
+
+<p>
+
+{{ _("Examples of infrastructure engineering, automation tools and technical solutions.") }}
+
+</p>
+
+</div>
+
+<div class="row gy-4">
+
+<div class="col-lg-4" data-aos="fade-up">
+
+<div class="project-card">
+
+<h3>{{ _("Railway Infrastructure Supervision") }}</h3>
+
+<p>
+
+{{ _("On-site supervision of railway works including track installation, bridges and sound barriers.") }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+<div class="project-card">
+
+<h3>{{ _("Construction Data Analytics") }}</h3>
+
+<p>
+
+{{ _("Automation and reporting tools to improve construction project monitoring.") }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+
+<div class="project-card">
+
+<h3>{{ _("Engineering Automation") }}</h3>
+
+<p>
+
+{{ _("Development of Python tools to streamline engineering calculations and workflows.") }}
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CALL TO ACTION -->
+<section class="cta section">
+
+<div class="container text-center" data-aos="fade-up">
+
+<h2>{{ _("Looking for Engineering or Digital Solutions?") }}</h2>
+
+<p>
+
+{{ _("We support infrastructure projects with engineering expertise and digital innovation.") }}
+
+</p>
+
+<a href="{{ url_for('contact') }}" class="btn btn-primary">
+{{ _("Get in Touch") }}
+</a>
+
+</div>
+
+</section>
+
+{% endblock %}

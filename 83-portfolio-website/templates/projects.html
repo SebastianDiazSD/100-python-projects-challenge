@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}Ground2Tech Engineering | {{ _("Projects") }}{% endblock %}
+{% block body_class %}projects-page{% endblock %}
+
+{% block content %}
+
+<section class="projects section">
+
+<div class="container">
+
+<div class="section-title text-center" data-aos="fade-up">
+
+<h2>{{ _("Projects & Engineering Tools") }}</h2>
+
+<p>
+
+{{ _("A selection of engineering projects, automation tools, and infrastructure solutions demonstrating our technical expertise.") }}
+
+</p>
+
+</div>
+
+<div class="row gy-4">
+
+<div class="col-lg-4">
+
+<div class="project-card">
+
+<h3>{{ _("Railway Infrastructure Supervision") }}</h3>
+
+<p>
+
+{{ _("We support railway construction projects through on-site supervision, coordination of contractors, and monitoring of infrastructure works including track installation, bridges, and related systems.") }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-4">
+
+<div class="project-card">
+
+<h3>{{ _("Construction Data Dashboard") }}</h3>
+
+<p>
+
+{{ _("We develop data dashboards and analytical tools to monitor construction progress, track project performance, and support data-driven decision-making in infrastructure projects.") }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-4">
+
+<div class="project-card">
+
+<h3>{{ _("Engineering Automation Tools") }}</h3>
+
+<p>
+
+{{ _("We create Python-based engineering tools that automate calculations, streamline reporting, and improve efficiency in technical project workflows.") }}
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+{% endblock %}
