@@ -206,6 +206,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 82 - [Morse Encoder](82-morse-encoder)
 - [x] Project 83 - [Website Development](83-portfolio-website)
 - [x] Project 84 - [Tic-Tac-Toe Game](84-tic-tac-toe)
+- [x] Project 85 - [Watermark App](85-watermark-app)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
