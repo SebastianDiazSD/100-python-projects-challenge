@@ -205,6 +205,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 81 - [Boston Housing Dataset](81-Boston-Regression)
 - [x] Project 82 - [Morse Encoder](82-morse-encoder)
 - [x] Project 83 - [Website Development](83-portfolio-website)
+- [x] Project 84 - [Tic-Tac-Toe Game](84-tic-tac-toe)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
