@@ -203,6 +203,8 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 79 - [Nobel Prize Analysis](79-Nobel-Prize-Analysis)
 - [x] Project 80 - [The Handwashing Revolution](80-Dr-Semmelweis-Analysis)
 - [x] Project 81 - [Boston Housing Dataset](81-Boston-Regression)
+- [x] Project 82 - [Morse Encoder](82-morse-encoder)
+- [x] Project 83 - [Website Development](83-portfolio-website)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
