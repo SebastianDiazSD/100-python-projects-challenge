@@ -209,6 +209,7 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 85 - [Watermark App](85-watermark-app)
 - [x] Project 86 - [Typing Speed Test](86-typing-speed)
 - [x] Project 87 - [Breakout 🇨🇴](87-breakout)
+- [x] Project 88 - [Cafe with Workvibe](88-cafe-workvibe)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
