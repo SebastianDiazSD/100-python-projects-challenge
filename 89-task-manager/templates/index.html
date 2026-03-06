@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="board">
+
+<div class="column">
+
+<h2>☕ To Do</h2>
+
+{% for task in todo %}
+
+<div class="task">
+
+<p>{{ task.title }}</p>
+
+<a href="{{ url_for('move_task', task_id=task.id, new_status='doing') }}">
+Start
+</a>
+
+<a href="{{ url_for('delete_task', task_id=task.id) }}">
+Delete
+</a>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+
+
+<div class="column">
+
+<h2>🚀 In Progress</h2>
+
+{% for task in doing %}
+
+<div class="task">
+
+<p>{{ task.title }}</p>
+
+<a href="{{ url_for('move_task', task_id=task.id, new_status='done') }}">
+Finish
+</a>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+
+
+<div class="column">
+
+<h2>✅ Done</h2>
+
+{% for task in done %}
+
+<div class="task">
+
+<p>{{ task.title }}</p>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+</div>
+
+{% endblock %}

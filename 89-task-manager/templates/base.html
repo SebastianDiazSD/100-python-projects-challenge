@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Cafe Productivity Board</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>☕ Cafe Productivity Board</h1>
+
+<p>
+Organize your work like a developer in a Colombian café.
+</p>
+
+<nav>
+<a href="{{ url_for('home') }}">Board</a>
+<a href="{{ url_for('add_task') }}">Add Task</a>
+</nav>
+
+</header>
+
+<div class="container">
+
+{% block content %}{% endblock %}
+
+</div>
+
+</body>
+</html>
