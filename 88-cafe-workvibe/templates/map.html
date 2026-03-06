@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Find Your Work Café in London ☕</h2>
+
+<div id="map"></div>
+
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<!-- Marker Cluster -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"/>
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+<script>
+
+var map = L.map('map').setView([51.5074, -0.1278], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+ attribution: '© OpenStreetMap'
+}).addTo(map);
+
+
+// Coffee icon
+var coffeeIcon = L.icon({
+iconUrl: "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+iconSize: [30, 30]
+});
+
+
+// Cluster group
+var markers = L.markerClusterGroup();
+
+
+{% for cafe in cafes %}
+
+var marker = L.marker(
+    [{{ cafe.lat }}, {{ cafe.lng }}],
+    {icon: coffeeIcon}
+);
+
+marker.bindPopup(`
+<b>{{ cafe.name }}</b><br>
+{{ cafe.location }}<br><br>
+☕ Coffee: {{ cafe.coffee_price }}<br>
+📶 WiFi: {{ "Yes" if cafe.wifi else "No" }}<br>
+<a href="{{ cafe.map_url }}" target="_blank">Open in Google Maps</a>
+`);
+
+markers.addLayer(marker);
+
+{% endfor %}
+
+
+// Add cluster layer to map
+map.addLayer(markers);
+
+
+// Fit map to markers
+if (markers.getLayers().length > 0) {
+    map.fitBounds(markers.getBounds());
+}
+
+</script>
+
+
+<style>
+
+#map {
+height: 650px;
+width: 100%;
+border-radius: 12px;
+margin-top: 20px;
+}
+
+</style>
+
+{% endblock %}

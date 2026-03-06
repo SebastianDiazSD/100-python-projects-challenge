@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Add a New Café</h2>
+
+<form method="POST">
+
+    {{ form.hidden_tag() }}
+
+    <p>{{ form.name.label }}<br>{{ form.name }}</p>
+    <p>{{ form.location.label }}<br>{{ form.location }}</p>
+    <p>{{ form.map_url.label }}<br>{{ form.map_url }}</p>
+    <p>{{ form.img_url.label }}<br>{{ form.img_url }}</p>
+
+    <p>{{ form.seats.label }}<br>{{ form.seats }}</p>
+    <p>{{ form.coffee_price.label }}<br>{{ form.coffee_price }}</p>
+
+    <p>{{ form.has_wifi }} {{ form.has_wifi.label }}</p>
+    <p>{{ form.has_sockets }} {{ form.has_sockets.label }}</p>
+    <p>{{ form.has_toilet }} {{ form.has_toilet.label }}</p>
+    <p>{{ form.can_take_calls }} {{ form.can_take_calls.label }}</p>
+
+    <p>{{ form.submit }}</p>
+
+</form>
+
+{% endblock %}

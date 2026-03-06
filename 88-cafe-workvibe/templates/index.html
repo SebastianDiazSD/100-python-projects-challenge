@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Remote Work Friendly Cafés</h2>
+
+<div class="cafes">
+
+{% for cafe in cafes %}
+
+<div class="cafe-card">
+
+    <img src="{{ cafe.img_url }}" alt="{{ cafe.name }}">
+
+    <h3>{{ cafe.name }}</h3>
+
+    <p><strong>Location:</strong> {{ cafe.location }}</p>
+
+    <p>
+        ☕ Price: {{ cafe.coffee_price }} <br>
+        💺 Seats: {{ cafe.seats }}
+    </p>
+
+    <p>
+        WiFi: {{ "✅" if cafe.has_wifi else "❌" }}
+        | Sockets: {{ "✅" if cafe.has_sockets else "❌" }}
+        | Calls: {{ "✅" if cafe.can_take_calls else "❌" }}
+    </p>
+
+    <a href="{{ cafe.map_url }}" target="_blank">View on Maps</a>
+
+    <br><br>
+
+    <a class="delete" href="{{ url_for('delete_cafe', cafe_id=cafe.id) }}">
+        Delete
+    </a>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}

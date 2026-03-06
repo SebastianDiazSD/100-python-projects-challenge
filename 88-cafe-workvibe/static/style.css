@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    background: #f7f3ed;
+    margin: 0;
+}
+
+header {
+    background: #6f4e37;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 40px;
+}
+
+.cafes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 30px;
+}
+
+.cafe-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.cafe-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.delete {
+    color: red;
+}
+
+#map {
+height: 650px;
+width: 100%;
+}
