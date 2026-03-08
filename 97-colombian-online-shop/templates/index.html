@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Colombian Online Shop 🇨🇴</h1>
+
+<div class="products">
+
+{% for product in products %}
+
+<div class="product">
+
+<img src="{{product.image}}" width="200">
+
+<h3>{{product.name}}</h3>
+
+<p>{{product.description}}</p>
+
+<p>$ {{product.price}}</p>
+
+<a href="/add_to_cart/{{product.id}}">Add to Cart</a>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}
