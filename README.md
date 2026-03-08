@@ -216,8 +216,12 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 92 - [Color Palette Generator](92-color-palette-generator)
 - [x] Project 93 - [Web Scraper 🇨🇴](93-web-scraper)
 - [x] Project 94 - [Chrome Dinosaur Automation Bot](94-dinosaur-game)
-- [ ] ...
-- [ ] Project 100 - 🎉
+- [x] Project 95 - [Space Invaders](95-space-invaders)
+- [x] Project 96 - [Dictionary Service](96-api-based-website)
+- [x] Project 97 - [Colombian Online Shop](97-colombian-online-shop)
+- [x] Project 98 - [Python Automation](98-python-automation)
+- [x] Project 99 - [Space Missions Analysis](99-space-missions)
+- [x] Project 100 - [Fatal Force Analysis](100-fatal-force)
 
 > Execution is continuous and iterative. Discipline wins.
 
