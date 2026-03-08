@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dictionary API App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<h1>📖 Dictionary API Website</h1>
+
+<form method="POST">
+    <input type="text" name="word" placeholder="Enter a word" required>
+    <button type="submit">Search</button>
+</form>
+
+{% if result %}
+
+<div class="result">
+
+<h2>{{ result.word }}</h2>
+
+<p><strong>Phonetic:</strong> {{ result.phonetic }}</p>
+
+<p><strong>Part of Speech:</strong> {{ result.part_of_speech }}</p>
+
+<p><strong>Definition:</strong> {{ result.meaning }}</p>
+
+<p><strong>Example:</strong> {{ result.example }}</p>
+
+</div>
+
+{% endif %}
+
+{% if error %}
+<p class="error">{{ error }}</p>
+{% endif %}
+
+</body>
+</html>
