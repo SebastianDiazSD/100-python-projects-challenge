@@ -43,7 +43,7 @@ steam_games.csv
 
 ## Scraper Architecture
 
-![Architecture](scraper_architecture.png)
+![Architecture](assets/scraper_architecture.png)
 
 The workflow follows a simple pipeline: request the webpage, parse HTML elements, structure the extracted data, and export the dataset to CSV.
 
@@ -51,4 +51,4 @@ The workflow follows a simple pipeline: request the webpage, parse HTML elements
 
 ## Sample Dataset Preview
 
-![Dataset Preview](dataset_preview.png)
+![Dataset Preview](assets/dataset_preview.png)
