@@ -210,6 +210,12 @@ I'm checking them off one by one — no rush, no pressure, just steady progress.
 - [x] Project 86 - [Typing Speed Test](86-typing-speed)
 - [x] Project 87 - [Breakout 🇨🇴](87-breakout)
 - [x] Project 88 - [Cafe with Workvibe](88-cafe-workvibe)
+- [x] Project 89 - [Cafe Productivity Board - Task List](89-task-manager)
+- [x] Project 90 - [Writing Challenge 🇨🇴](90-writing-challenge)
+- [x] Project 91 - [PDF to Audio](91-pdf-to-audio)
+- [x] Project 92 - [Color Palette Generator](92-color-palette-generator)
+- [x] Project 93 - [Web Scraper 🇨🇴](93-web-scraper)
+- [x] Project 94 - [Chrome Dinosaur Automation Bot](94-dinosaur-game)
 - [ ] ...
 - [ ] Project 100 - 🎉
 
